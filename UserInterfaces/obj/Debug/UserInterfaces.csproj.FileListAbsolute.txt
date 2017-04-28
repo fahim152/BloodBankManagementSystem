@@ -1,0 +1,32 @@
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\UserInterfaces.exe
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\DBConnection.exe
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\MySql.Data.dll
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\DBConnection.pdb
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\MySql.Data.xml
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.csprojResolveAssemblyReference.cache
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.LoginPanel.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.PathologistPanel.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.Properties.Resources.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.csproj.GenerateResource.Cache
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.exe
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.pdb
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\UserInterfaces.exe.config
+F:\VS Projects\Blood Bank Management System\UserInterfaces\bin\Debug\UserInterfaces.pdb
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.NursePanel.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.AdminPanel.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.DonorRegistration.resources
+F:\VS Projects\Blood Bank Management System\UserInterfaces\obj\Debug\UserInterfaces.StaffRegistration.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Debug\UserInterfaces.exe.config
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.exe
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.pdb
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Debug\UserInterfaces.exe
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Debug\UserInterfaces.pdb
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.csprojResolveAssemblyReference.cache
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.AdminPanel.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.LoginPanel.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.NursePanel.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.PathologistPanel.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.DonorRegistration.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.Properties.Resources.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.StaffRegistration.resources
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.csproj.GenerateResource.Cache

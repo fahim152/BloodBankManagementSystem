@@ -1,0 +1,6 @@
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Release\MySql.Data.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb

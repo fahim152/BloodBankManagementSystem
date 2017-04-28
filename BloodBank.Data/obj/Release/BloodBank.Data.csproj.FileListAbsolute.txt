@@ -1,0 +1,24 @@
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.dll.config
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.pdb
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Entity.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\MySql.Data.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Entity.pdb
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.dll
+F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.pdb
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.dll.config
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.dll
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Data.pdb
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Entity.dll
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\mscorlib.dll
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\MySql.Data.dll
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\BloodBank.Entity.pdb
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\normidna.nlp
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\normnfc.nlp
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\normnfd.nlp
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\normnfkc.nlp
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\bin\Release\normnfkd.nlp
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.dll
+C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\BloodBank.Data\obj\Release\BloodBank.Data.pdb

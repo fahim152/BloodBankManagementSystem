@@ -1,0 +1,8 @@
+F:\VS Projects\Blood Bank Management System\DBConnection\bin\Debug\DBConnection.exe.config
+F:\VS Projects\Blood Bank Management System\DBConnection\bin\Debug\DBConnection.exe
+F:\VS Projects\Blood Bank Management System\DBConnection\bin\Debug\DBConnection.pdb
+F:\VS Projects\Blood Bank Management System\DBConnection\bin\Debug\MySql.Data.dll
+F:\VS Projects\Blood Bank Management System\DBConnection\bin\Debug\MySql.Data.xml
+F:\VS Projects\Blood Bank Management System\DBConnection\obj\Debug\DBConnection.exe
+F:\VS Projects\Blood Bank Management System\DBConnection\obj\Debug\DBConnection.pdb
+F:\VS Projects\Blood Bank Management System\DBConnection\obj\Debug\DBConnection.csprojResolveAssemblyReference.cache

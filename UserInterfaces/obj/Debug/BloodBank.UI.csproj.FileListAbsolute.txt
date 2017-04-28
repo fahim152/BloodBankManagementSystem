@@ -1,0 +1,3 @@
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Debug\UserInterfaces.exe.config
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.exe
+F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.pdb
