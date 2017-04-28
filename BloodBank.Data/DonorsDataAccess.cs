@@ -23,66 +23,65 @@ namespace BloodBank.Data
 
         public int Remove(Donors donors)
         {
-            string query = "DELETE FROM employee WHERE id=" + donors.Id;
+            string query = "DELETE FROM Donors WHERE id=" + donors.Id;
             return DataAccess.ExecuteQuery(query);
         }
 
         public int Edit(Donors donors)
         {
 
-            string query = "UPADATE donors SET Name='" + donors.Name + "' Password= '" + donors.Address + "' Designation= '" + donors.Age + "' Address= '" + donors.Gender + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.BloodGroup + "' WHERE id=" + donors.Weight;
+            string query = "UPADATE donors SET Name='" + donors.Name  + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + donors.Id;
             return DataAccess.ExecuteQuery(query);
         }
 
-        public void RetrieveAll()
+        public List<Donors> GetAll()
         {
-
-        }
-
-
-        public List<Employee> GetAll()
-        {
-            string query = "SELECT id, name, phone FROM employee";
+            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors";
             MySqlDataReader reader = DataAccess.GetData(query);
 
-            Employee employee = null;
-            List<Employee> employeeList = new List<Employee>();
+            Donors donors = null;
+            List<Donors> donorsList = new List<Donors>();
             while (reader.Read())
             {
-                employee = new Employee();
-                employee.Id = Convert.ToInt32(reader["Id"]);
-                employee.Name = reader["Name"].ToString();
-                employee.Password = reader["Designation"].ToString();
-                employee.Address = reader["Address"].ToString();
-                employee.Phone = reader["Phone"].ToString();
-                employee.Email = reader["Email"].ToString();
-                employee.Gender = reader["Gender"].ToString();
-                employeeList.Add(employee);
+                donors = new Donors();
+                donors.Id = Convert.ToInt32(reader["Id"]);
+                donors.Name = reader["Name"].ToString();
+                donors.Address = reader["Address"].ToString();
+                donors.Age = Convert.ToInt32(reader["Age"]);
+                donors.Phone = reader["Phone"].ToString();
+                donors.Email = reader["Email"].ToString();
+                donors.Gender = reader["Gender"].ToString();
+                donors.Weight = Convert.ToInt32(reader["Address"]);
+                donors.BloodGroup = reader["Blood_Group"].ToString();
+                donorsList.Add(donors);
             }
-            return employeeList;
+            return donorsList;
         }
 
-        public Employee GetById(int id)
+        public Donors GetById(int id)
         {
-            string query = "SELECT id, name, phone FROM employee WHERE id=" + id;
+            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors WHERE id=" + id;
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
-            Employee employee = null;
+            Donors donors = null;
             if (reader.HasRows)
             {
-                employee = new Employee();
-                employee.Id = Convert.ToInt32(reader["Id"]);
-                employee.Name = reader["Name"].ToString();
-                employee.Password = reader["Designation"].ToString();
-                employee.Address = reader["Address"].ToString();
-                employee.Phone = reader["Phone"].ToString();
-                employee.Email = reader["Email"].ToString();
-                employee.Gender = reader["Gender"].ToString();
+                donors = new Donors();
+                donors.Id = Convert.ToInt32(reader["Id"]);
+                donors.Name = reader["Name"].ToString();
+                donors.Address = reader["Address"].ToString();
+                donors.Age = Convert.ToInt32(reader["Age"]);
+                donors.Phone = reader["Phone"].ToString();
+                donors.Email = reader["Email"].ToString();
+                donors.Gender = reader["Gender"].ToString();
+                donors.Weight = Convert.ToInt32(reader["Address"]);
+                donors.BloodGroup = reader["Blood_Group"].ToString();
             }
-            return employee;
+            return donors;
         }
 
+<<<<<<< HEAD
 
         public void DonorEmail() 
         {
@@ -111,6 +110,8 @@ namespace BloodBank.Data
 
         } 
 
+=======
+>>>>>>> refs/remotes/origin/master
     }
 
 }

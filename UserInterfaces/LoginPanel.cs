@@ -54,7 +54,7 @@ namespace UserInterfaces
             }
             else
             {
-                MessageBox.Show("Error");
+                MessageBox.Show("Invalid User id or Password!!");
             }
         }
 
