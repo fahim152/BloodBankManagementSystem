@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using BloodBank.Entity;
+using System.Net;
+using System.Net.Mail;
 
 namespace BloodBank.Data
 {
@@ -79,6 +81,37 @@ namespace BloodBank.Data
             return donors;
         }
 
+<<<<<<< HEAD
+=======
+
+        public void DonorEmail() 
+        {
+
+            try
+            {
+                MailMessage message = new MailMessage();
+                message.From = new MailAddress("bloodbank152@gmail.com");
+                message.Subject = "Blood Bank Registration";
+                message.Body = " Dear Donor, Thanks for registering and for your donation. Your contribution may help to save one life. /n This is Auto Generated Mail. Please Do not reply this mail";
+                message.To.Add("fahim152@gmail.com");
+
+                SmtpClient client = new SmtpClient();
+                client.Credentials = new NetworkCredential("bloodbank152@gmail.com", "fahimarefin");
+                client.Host = "smtp.gmail.com";
+                client.Port = 587;
+                client.EnableSsl = true;
+                client.Send(message);
+            }
+            catch
+            {
+               
+
+
+            }
+
+        } 
+
+>>>>>>> refs/remotes/origin/master
     }
 
 }
