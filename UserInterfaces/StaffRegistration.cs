@@ -74,8 +74,6 @@ namespace UserInterfaces
             this.Hide();
             ap.ShowDialog();
             this.Close();
-
-
         }
     }
 }
