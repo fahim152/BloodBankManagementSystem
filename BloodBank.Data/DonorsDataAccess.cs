@@ -35,8 +35,6 @@ namespace BloodBank.Data
         public void RetrieveAll()
         {
 
-
-
         }
 
 
@@ -57,7 +55,6 @@ namespace BloodBank.Data
                 employee.Phone = reader["Phone"].ToString();
                 employee.Email = reader["Email"].ToString();
                 employee.Gender = reader["Gender"].ToString();
-
                 employeeList.Add(employee);
             }
             return employeeList;
@@ -84,24 +81,8 @@ namespace BloodBank.Data
             return employee;
         }
 
-        public string CheckLogin(int id, string password)
-        {
-            string query = string.Format("SELECT Designation FROM employee WHERE ID = '{0}' AND Password = '{1}'", id, password);
-            string designation = null;
-            MySqlDataReader reader = DataAccess.GetData(query);
+        public void Test2() {
 
-            while (reader.Read())
-            {
-                designation = reader["Designation"].ToString();
-            }
-
-            return designation;
-        }
-
-        public object RowCount()
-        {
-            string query = "SELECT COUNT(*) FROM employee";
-            return DataAccess.ExecuteScalar(query);
         }
     }
 
