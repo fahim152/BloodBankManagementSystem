@@ -30,7 +30,7 @@ namespace BloodBank.Data
 
         public List<Employee> GetAll()
         {
-            string query = "SELECT id, name, phone FROM employee";
+            string query = "SELECT ID, Name, Phone, Email, Password, Address, Gender FROM employee";
             MySqlDataReader reader = DataAccess.GetData(query);
 
             Employee employee = null;
@@ -53,7 +53,7 @@ namespace BloodBank.Data
 
         public Employee GetById(int id)
         {
-            string query = "SELECT id, name, phone FROM employee WHERE id=" + id;
+            string query = "SELECT ID, Name, Phone, Email, Password, Address, Gender FROM employee WHERE ID="+id;
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
