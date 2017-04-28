@@ -26,6 +26,7 @@ namespace UserInterfaces
         private void button1_Click(object sender, EventArgs e)
         {
             EmployeeService employeeService = new EmployeeService();
+
             int count = Convert.ToInt32(employeeService.RowCount());
             count++;
             Employee employee = new Employee();
@@ -38,11 +39,7 @@ namespace UserInterfaces
             employee.Email = emailBox.Text;
             employee.Gender = (string)genderBox.SelectedItem;
 
-            
-
-            if (employeeService.Add(employee) > 0) {
-                MessageBox.Show("Record Added!");
-            }
+            employeeService.Add(employee);
         }
 
         private void designationBox_SelectedIndexChanged(object sender, EventArgs e)
