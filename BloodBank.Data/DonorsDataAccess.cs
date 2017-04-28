@@ -103,6 +103,14 @@ namespace BloodBank.Data
             string query = "SELECT COUNT(*) FROM employee";
             return DataAccess.ExecuteScalar(query);
         }
+
+
+
+        public void test1() { 
+        
+        
+        
+        }
     }
 
 }
