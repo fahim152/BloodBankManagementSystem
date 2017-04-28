@@ -49,3 +49,6 @@ C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood 
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
+F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
+F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
