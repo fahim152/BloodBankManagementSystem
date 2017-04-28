@@ -8,7 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UserInterfaces;
-
+using System.Net;
+using System.Net.Mail;
 namespace UserInterfaces
 {
     public partial class DonorRegistration : Form
@@ -37,7 +38,8 @@ namespace UserInterfaces
 
         private void DonorRegister_Click(object sender, EventArgs e)
         {
-            
+
+       
         }
 
         private void BackButton_Click(object sender, EventArgs e)
