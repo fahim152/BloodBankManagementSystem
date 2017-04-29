@@ -87,6 +87,7 @@ namespace UserInterfaces
            
             DonorUpdate du = new DonorUpdate(d);
             du.ShowDialog();
+            LoadData();
         }
 
         private void DonorDelete_Click(object sender, EventArgs e)
@@ -121,6 +122,8 @@ namespace UserInterfaces
             
 
             idTextDonor = dataGridView1.Rows[e.RowIndex].Cells["ID"].Value.ToString();
+            idDonor = int.Parse(idTextDonor);
+            d.Id = idDonor;
             d.Name = dataGridView1.Rows[e.RowIndex].Cells["Name"].Value.ToString();
             d.Address = dataGridView1.Rows[e.RowIndex].Cells["Address"].Value.ToString();
             d.Email = dataGridView1.Rows[e.RowIndex].Cells["Email"].Value.ToString();
@@ -129,9 +132,6 @@ namespace UserInterfaces
             d.Phone = dataGridView1.Rows[e.RowIndex].Cells["Phone"].Value.ToString();
             d.BloodGroup = dataGridView1.Rows[e.RowIndex].Cells["BloodGroup"].Value.ToString();
             d.Weight = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["Weight"].Value.ToString());
-
-            idDonor = int.Parse(idTextDonor);
-
 
         }
 
