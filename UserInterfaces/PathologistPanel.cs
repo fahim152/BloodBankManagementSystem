@@ -35,7 +35,10 @@ namespace UserInterfaces
 
         private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            LoginPanel lp = new LoginPanel();
+            this.Hide();
+            lp.ShowDialog();
+            this.Close();
         }
     }
 }
