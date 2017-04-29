@@ -46,15 +46,13 @@
             this.DonorRegister = new System.Windows.Forms.Button();
             this.DonorAge = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.DonorID = new System.Windows.Forms.TextBox();
             this.BackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // DonorName
             // 
             this.DonorName.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorName.Location = new System.Drawing.Point(147, 160);
+            this.DonorName.Location = new System.Drawing.Point(143, 114);
             this.DonorName.Name = "DonorName";
             this.DonorName.Size = new System.Drawing.Size(143, 23);
             this.DonorName.TabIndex = 0;
@@ -63,7 +61,7 @@
             // DonorAddress
             // 
             this.DonorAddress.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorAddress.Location = new System.Drawing.Point(147, 211);
+            this.DonorAddress.Location = new System.Drawing.Point(143, 165);
             this.DonorAddress.Name = "DonorAddress";
             this.DonorAddress.Size = new System.Drawing.Size(143, 23);
             this.DonorAddress.TabIndex = 1;
@@ -71,7 +69,7 @@
             // DonorPhone
             // 
             this.DonorPhone.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorPhone.Location = new System.Drawing.Point(147, 387);
+            this.DonorPhone.Location = new System.Drawing.Point(143, 341);
             this.DonorPhone.Name = "DonorPhone";
             this.DonorPhone.Size = new System.Drawing.Size(143, 23);
             this.DonorPhone.TabIndex = 2;
@@ -79,7 +77,7 @@
             // DonorEmail
             // 
             this.DonorEmail.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorEmail.Location = new System.Drawing.Point(147, 445);
+            this.DonorEmail.Location = new System.Drawing.Point(143, 399);
             this.DonorEmail.Name = "DonorEmail";
             this.DonorEmail.Size = new System.Drawing.Size(143, 23);
             this.DonorEmail.TabIndex = 3;
@@ -88,7 +86,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(56, 168);
+            this.label1.Location = new System.Drawing.Point(52, 122);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 7;
@@ -98,7 +96,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(56, 219);
+            this.label2.Location = new System.Drawing.Point(52, 173);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 15);
             this.label2.TabIndex = 8;
@@ -108,7 +106,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(57, 387);
+            this.label5.Location = new System.Drawing.Point(53, 341);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(46, 15);
             this.label5.TabIndex = 12;
@@ -118,7 +116,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(56, 445);
+            this.label6.Location = new System.Drawing.Point(52, 399);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 15);
             this.label6.TabIndex = 13;
@@ -176,7 +174,7 @@
             // 
             this.DonorGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DonorGender.FormattingEnabled = true;
-            this.DonorGender.Location = new System.Drawing.Point(147, 323);
+            this.DonorGender.Location = new System.Drawing.Point(143, 277);
             this.DonorGender.Name = "DonorGender";
             this.DonorGender.Size = new System.Drawing.Size(121, 21);
             this.DonorGender.TabIndex = 19;
@@ -186,7 +184,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(56, 331);
+            this.label4.Location = new System.Drawing.Point(52, 285);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 15);
             this.label4.TabIndex = 20;
@@ -206,7 +204,7 @@
             // DonorAge
             // 
             this.DonorAge.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorAge.Location = new System.Drawing.Point(147, 266);
+            this.DonorAge.Location = new System.Drawing.Point(143, 220);
             this.DonorAge.Name = "DonorAge";
             this.DonorAge.Size = new System.Drawing.Size(143, 23);
             this.DonorAge.TabIndex = 22;
@@ -215,29 +213,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(57, 269);
+            this.label3.Location = new System.Drawing.Point(53, 223);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 15);
             this.label3.TabIndex = 23;
             this.label3.Text = "Age";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(56, 114);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(22, 15);
-            this.label7.TabIndex = 24;
-            this.label7.Text = "ID";
-            // 
-            // DonorID
-            // 
-            this.DonorID.Font = new System.Drawing.Font("Rockwell", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DonorID.Location = new System.Drawing.Point(147, 114);
-            this.DonorID.Name = "DonorID";
-            this.DonorID.Size = new System.Drawing.Size(143, 23);
-            this.DonorID.TabIndex = 25;
             // 
             // BackButton
             // 
@@ -256,8 +236,6 @@
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.BackButton);
-            this.Controls.Add(this.DonorID);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.DonorAge);
             this.Controls.Add(this.DonorRegister);
@@ -279,6 +257,7 @@
             this.Name = "DonorRegistration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DonorRegistration";
+            this.Load += new System.EventHandler(this.DonorRegistration_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,8 +283,6 @@
         private System.Windows.Forms.Button DonorRegister;
         private System.Windows.Forms.TextBox DonorAge;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox DonorID;
         private System.Windows.Forms.Button BackButton;
     }
 }

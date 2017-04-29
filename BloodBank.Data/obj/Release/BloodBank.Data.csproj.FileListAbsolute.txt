@@ -37,3 +37,12 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.dll.config
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Entity.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\MySql.Data.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Entity.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.pdb
