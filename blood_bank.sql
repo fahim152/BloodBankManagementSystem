@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.6.5.2
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2017 at 02:19 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.8
+-- Generation Time: Apr 29, 2017 at 02:25 PM
+-- Server version: 10.1.21-MariaDB
+-- PHP Version: 5.6.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -19,6 +19,31 @@ SET time_zone = "+00:00";
 --
 -- Database: `blood_bank`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `blood_inventory`
+--
+
+CREATE TABLE `blood_inventory` (
+  `Blood_Group` varchar(20) NOT NULL,
+  `Quantity` int(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `blood_inventory`
+--
+
+INSERT INTO `blood_inventory` (`Blood_Group`, `Quantity`) VALUES
+('A+', 0),
+('A-', 0),
+('B+', 0),
+('B-', 0),
+('AB+', 0),
+('AB-', 0),
+('O+', 0),
+('O-', 0);
 
 -- --------------------------------------------------------
 
@@ -73,7 +98,9 @@ INSERT INTO `employee` (`ID`, `Name`, `Password`, `Designation`, `Address`, `Pho
 (102, 'Arefin', 'arefin', 'Admin', '', '', '', ''),
 (1001, 'Alex', 'alex', 'Pathologist', '', '', '', ''),
 (2001, 'Alice', 'alice', 'Nurse', '', '', '', ''),
-(1002, 'Alif', 'alif', 'Pathologist', 'Dhaka', '01733223422', 'alif@gmail.com', 'Male');
+(1002, 'Alif', 'alif', 'Pathologist', 'Dhaka', '01733223422', 'alif@gmail.com', 'Male'),
+(8, 'Malek', 'malek', 'Pathologist', 'Noakhali', '0189217812', 'malek@gmail.com', 'Male'),
+(7, 'Nasir', 'nasir', 'Nurse', 'Dhaka', '0193282213', 'nasir@gmail.com', 'Male');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
