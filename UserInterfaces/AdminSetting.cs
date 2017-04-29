@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace BloodBank
 {
-    public partial class EmployeeUpdate : Form
+    public partial class AdminSetting : Form
     {
-        public EmployeeUpdate()
+        public AdminSetting()
         {
             InitializeComponent();
-        }
-
-        private void nameBox_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

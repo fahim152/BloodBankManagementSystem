@@ -22,9 +22,9 @@ namespace BloodBank.Core
             return donorsDataAccess.Remove(id);
         }
 
-        public int Edit(Donors donors)
+        public int Edit(Donors donors, int id)
         {
-            return donorsDataAccess.Edit(donors);
+            return donorsDataAccess.Edit(donors,id);
         }
 
         public List<Donors> GetAll()
@@ -40,6 +40,8 @@ namespace BloodBank.Core
         public bool SendDonorEmail(string donorEmail) {
             return donorsDataAccess.SendDonorEmail(donorEmail);
         }
+
+      
 
     }
 }

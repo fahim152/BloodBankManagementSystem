@@ -60,6 +60,7 @@
             // RegisterButton
             // 
             this.RegisterButton.BackColor = System.Drawing.SystemColors.Highlight;
+            this.RegisterButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterButton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.RegisterButton.Location = new System.Drawing.Point(321, 457);
             this.RegisterButton.Name = "RegisterButton";

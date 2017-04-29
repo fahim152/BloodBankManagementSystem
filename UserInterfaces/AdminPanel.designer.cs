@@ -32,7 +32,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registerStaffChemistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.showBloodInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.emailSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.donorNameBox = new System.Windows.Forms.TextBox();
@@ -43,9 +46,6 @@
             this.DonorDelete = new System.Windows.Forms.Button();
             this.EmployeeUpdate = new System.Windows.Forms.Button();
             this.EmployeeDelete = new System.Windows.Forms.Button();
-            this.showBloodInventoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.settingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.emailSettingsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -89,12 +89,33 @@
             this.registerStaffChemistToolStripMenuItem.Text = "Register Staff/Chemist";
             this.registerStaffChemistToolStripMenuItem.Click += new System.EventHandler(this.registerStaffChemistToolStripMenuItem_Click);
             // 
+            // showBloodInventoryToolStripMenuItem
+            // 
+            this.showBloodInventoryToolStripMenuItem.Name = "showBloodInventoryToolStripMenuItem";
+            this.showBloodInventoryToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.showBloodInventoryToolStripMenuItem.Text = "Show Blood Inventory";
+            this.showBloodInventoryToolStripMenuItem.Click += new System.EventHandler(this.showBloodInventoryToolStripMenuItem_Click);
+            // 
             // logoutToolStripMenuItem
             // 
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
             this.logoutToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
+            // 
+            // settingsToolStripMenuItem
+            // 
+            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.emailSettingsToolStripMenuItem});
+            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
+            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.settingsToolStripMenuItem.Text = "Settings";
+            // 
+            // emailSettingsToolStripMenuItem
+            // 
+            this.emailSettingsToolStripMenuItem.Name = "emailSettingsToolStripMenuItem";
+            this.emailSettingsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.emailSettingsToolStripMenuItem.Text = "Email Settings";
             // 
             // dataGridView1
             // 
@@ -103,6 +124,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(369, 358);
             this.dataGridView1.TabIndex = 2;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dataGridView2
@@ -112,6 +134,7 @@
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(362, 358);
             this.dataGridView2.TabIndex = 3;
+            this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // donorNameBox
@@ -194,27 +217,7 @@
             this.EmployeeDelete.TabIndex = 15;
             this.EmployeeDelete.Text = "Delete Employee";
             this.EmployeeDelete.UseVisualStyleBackColor = true;
-            // 
-            // showBloodInventoryToolStripMenuItem
-            // 
-            this.showBloodInventoryToolStripMenuItem.Name = "showBloodInventoryToolStripMenuItem";
-            this.showBloodInventoryToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.showBloodInventoryToolStripMenuItem.Text = "Show Blood Inventory";
-            this.showBloodInventoryToolStripMenuItem.Click += new System.EventHandler(this.showBloodInventoryToolStripMenuItem_Click);
-            // 
-            // settingsToolStripMenuItem
-            // 
-            this.settingsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.emailSettingsToolStripMenuItem});
-            this.settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            this.settingsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
-            this.settingsToolStripMenuItem.Text = "Settings";
-            // 
-            // emailSettingsToolStripMenuItem
-            // 
-            this.emailSettingsToolStripMenuItem.Name = "emailSettingsToolStripMenuItem";
-            this.emailSettingsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.emailSettingsToolStripMenuItem.Text = "Email Settings";
+            this.EmployeeDelete.Click += new System.EventHandler(this.EmployeeDelete_Click);
             // 
             // AdminPanel
             // 
