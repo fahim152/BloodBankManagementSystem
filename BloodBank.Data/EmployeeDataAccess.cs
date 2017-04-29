@@ -24,7 +24,8 @@ namespace BloodBank.Data
 
         public int Edit(Employee employee)
         {
-            string query = "UPADATE Person SET Name='" + employee.Name + "' Password= '" + employee.Password + "' Designation= '" + employee.Designation + "' Address= '" + employee.Address + "' Phone= '" + employee.Phone + "' Email= '" + employee.Email + "' Gender= '" + employee.Gender + "' WHERE id=" + employee.Id;
+            string query = "UPDATE employee SET Name = '" + employee.Name + "', Password = '" + employee.Password + "', Designation = '" + employee.Designation + "', Address = '" + employee.Address + "', Phone = '" + employee.Phone + "', Email = '" + employee.Email + "', Gender = '" + employee.Gender + "' WHERE ID = " + employee.Id;
+            //string query = "UPDATE Person SET Name='" + employee.Name + "' Password= '" + employee.Password + "' Designation= '" + employee.Designation + "' Address= '" + employee.Address + "' Phone= '" + employee.Phone + "' Email= '" + employee.Email + "' Gender= '" + employee.Gender + "' WHERE id=" + employee.Id;
             return DataAccess.ExecuteQuery(query);
         }
 
