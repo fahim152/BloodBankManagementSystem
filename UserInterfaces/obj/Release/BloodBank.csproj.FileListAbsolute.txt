@@ -94,3 +94,6 @@ F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Releas
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources

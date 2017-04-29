@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BloodBank;
 using BloodBank.Core;
+using BloodBank.Entity;
 
 namespace UserInterfaces
 {
@@ -70,7 +71,39 @@ namespace UserInterfaces
         {
             string name = donorNameBox.Text;
             DonorsService donorsService = new DonorsService();
-            dataGridView1.DataSource = donorsService.GetByName(name);
+            dataGridView1.DataSource = new List<Donors> {donorsService.GetByName(name)};
+        }
+
+        private void staffNameBox_TextChanged(object sender, EventArgs e)
+        {
+            string name = staffNameBox.Text;
+            EmployeeService employeeService = new EmployeeService();
+            dataGridView2.DataSource = new List<Employee> { employeeService.GetByName(name)};
+        }
+
+        private void DonorUpdate_Click(object sender, EventArgs e)
+        {
+            DonorUpdate du = new DonorUpdate();
+            du.ShowDialog();
+        }
+
+        private void DonorDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EmployeeUpdate_Click(object sender, EventArgs e)
+        {
+            EmployeeUpdate eu = new EmployeeUpdate();
+            eu.ShowDialog();
+        }
+
+        private void showBloodInventoryToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Blood_Inventory bi = new Blood_Inventory();
+            this.Hide();
+            bi.ShowDialog();
+            this.Close();
         }
     }
 }

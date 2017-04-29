@@ -30,7 +30,7 @@ namespace BloodBank.Data
 
         public List<Employee> GetAll()
         {
-            string query = "SELECT ID, Name, Phone, Email, Password, Address, Gender FROM employee";
+            string query = "SELECT * FROM employee";
             MySqlDataReader reader = DataAccess.GetData(query);
 
             Employee employee = null;
@@ -41,6 +41,7 @@ namespace BloodBank.Data
                 employee.Id = Convert.ToInt32(reader["ID"]);
                 employee.Name = reader["Name"].ToString();
                 employee.Password = reader["Password"].ToString();
+                employee.Designation = reader["Designation"].ToString();
                 employee.Address = reader["Address"].ToString();
                 employee.Phone = reader["Phone"].ToString();
                 employee.Email = reader["Email"].ToString();
@@ -53,7 +54,8 @@ namespace BloodBank.Data
 
         public Employee GetByName(string name)
         {
-            string query = "SELECT ID, Name, Phone, Email, Password, Address, Gender FROM employee WHERE Name = "+name;
+            name += "%";
+            string query = "SELECT * FROM employee WHERE Name LIKE '" + name + "'";
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
@@ -61,9 +63,10 @@ namespace BloodBank.Data
             if (reader.HasRows)
             {
                 employee = new Employee();
-                employee.Id = Convert.ToInt32(reader["Id"]);
+                employee.Id = Convert.ToInt32(reader["ID"]);
                 employee.Name = reader["Name"].ToString();
-                employee.Password = reader["Designation"].ToString();
+                employee.Password = reader["Password"].ToString();
+                employee.Designation = reader["Designation"].ToString();
                 employee.Address = reader["Address"].ToString();
                 employee.Phone = reader["Phone"].ToString();
                 employee.Email = reader["Email"].ToString();

@@ -59,6 +59,24 @@
     <Compile Include="AdminPanel.designer.cs">
       <DependentUpon>AdminPanel.cs</DependentUpon>
     </Compile>
+    <Compile Include="BloodInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BloodInventory.Designer.cs">
+      <DependentUpon>BloodInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DonorUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DonorUpdate.Designer.cs">
+      <DependentUpon>DonorUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeUpdate.Designer.cs">
+      <DependentUpon>EmployeeUpdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPanel.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +111,15 @@
     </Compile>
     <EmbeddedResource Include="AdminPanel.resx">
       <DependentUpon>AdminPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BloodInventory.resx">
+      <DependentUpon>BloodInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DonorUpdate.resx">
+      <DependentUpon>DonorUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeUpdate.resx">
+      <DependentUpon>EmployeeUpdate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPanel.resx">
       <DependentUpon>LoginPanel.cs</DependentUpon>
