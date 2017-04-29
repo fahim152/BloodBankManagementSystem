@@ -8,22 +8,8 @@ namespace BloodBank.Entity
 {
     public class Blood
     {
-        int id;
         string bloodGroup;
         int quantity;
-
-        public int Id
-        {
-            get
-            {
-                return id;
-            }
-
-            set
-            {
-                id = value;
-            }
-        }
 
         public string BloodGroup
         {

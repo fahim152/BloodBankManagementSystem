@@ -12,6 +12,9 @@ namespace BloodBank.Data
 {
     public class DonorsDataAccess
     {
+        //string messageBody;
+        //string senderEmail;
+
         public int Add(Donors donors)
         {
             string query = string.Format("INSERT INTO donors VALUES('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')", donors.Id, donors.Name, donors.Address, donors.Age, donors.Gender, donors.Phone, donors.Email, donors.BloodGroup, donors.Weight);
@@ -24,10 +27,10 @@ namespace BloodBank.Data
             return DataAccess.ExecuteQuery(query);
         }
 
-        public int Edit(Donors donors)
+        public int Edit(Donors donors, int id)
         {
-
-            string query = "UPADATE donors SET Name='" + donors.Name  + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + donors.Id;
+            string query = string.Format("Update donors SET NAME('{0}''{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}' WHERE ID = '{8}')", donors.Name, donors.Address, donors.Age, donors.Gender, donors.Phone, donors.Email, donors.BloodGroup, donors.Weight, id);
+            //string query = "UPADATE donors SET Name='" + donors.Name + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + id;
             return DataAccess.ExecuteQuery(query);
         }
 
@@ -55,9 +58,10 @@ namespace BloodBank.Data
             return donorsList;
         }
 
-        public Donors GetById(int id)
+        public Donors GetByName(string name)
         {
-            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors WHERE id=" + id;
+            name += "%";
+            string query = "SELECT * FROM donors WHERE Name LIKE '" + name + "'";
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
@@ -79,6 +83,7 @@ namespace BloodBank.Data
         }
 
         public bool SendDonorEmail(string donorEmail) 
+
         {
             bool status;
             try
@@ -103,7 +108,13 @@ namespace BloodBank.Data
             }
 
             return status;
-        } 
-    }
+        }            
 
+
+        
+
+    } 
 }
+
+
+

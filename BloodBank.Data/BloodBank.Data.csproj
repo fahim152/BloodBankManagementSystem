@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BloodDataAccess.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="DonorsDataAccess.cs" />
     <Compile Include="EmployeeDataAccess.cs" />
