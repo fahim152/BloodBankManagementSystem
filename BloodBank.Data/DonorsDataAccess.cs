@@ -81,6 +81,11 @@ namespace BloodBank.Data
             return donors;
         }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> refs/remotes/origin/pr/5
 
 
         public void DonorEmail()
@@ -110,6 +115,10 @@ namespace BloodBank.Data
 
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>> refs/remotes/origin/master
+>>>>>>> refs/remotes/origin/pr/5
     }
 
 }
