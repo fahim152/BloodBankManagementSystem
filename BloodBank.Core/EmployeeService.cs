@@ -32,9 +32,9 @@ namespace BloodBank.Core
             return employeeDataAccess.GetAll();
         }
 
-        public Employee GetById(int id)
+        public Employee GetByName(string name)
         {
-            return employeeDataAccess.GetById(id);
+            return employeeDataAccess.GetByName(name);
         }
 
         public string CheckLogin(int id, string password) {

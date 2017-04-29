@@ -115,6 +115,7 @@
             this.donorNameBox.Name = "donorNameBox";
             this.donorNameBox.Size = new System.Drawing.Size(155, 25);
             this.donorNameBox.TabIndex = 4;
+            this.donorNameBox.TextChanged += new System.EventHandler(this.donorNameBox_TextChanged);
             // 
             // label2
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BloodBank.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -39,6 +40,12 @@ namespace UserInterfaces
             this.Hide();
             lp.ShowDialog();
             this.Close();
+        }
+
+        private void PathologistPanel_Load(object sender, EventArgs e)
+        {
+            DonorsService donorsService = new DonorsService();
+            dataGridView1.DataSource = donorsService.GetAll();
         }
     }
 }

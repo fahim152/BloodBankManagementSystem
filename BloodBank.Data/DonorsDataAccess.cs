@@ -55,9 +55,9 @@ namespace BloodBank.Data
             return donorsList;
         }
 
-        public Donors GetById(int id)
+        public Donors GetByName(string name)
         {
-            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors WHERE id=" + id;
+            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors WHERE Name = " +name;
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
@@ -77,10 +77,6 @@ namespace BloodBank.Data
             }
             return donors;
         }
-
-
-
-       
 
         public bool SendDonorEmail(string donorEmail) 
 
@@ -105,21 +101,12 @@ namespace BloodBank.Data
             catch
             {
                 status = false;
-
-
-
             }
 
-                 return status;
-
-
-                
-            }
-
-            
-        } 
-
-    }
+            return status;
+        }            
+    } 
+}
 
 
 

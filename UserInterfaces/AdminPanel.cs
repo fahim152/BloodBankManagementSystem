@@ -8,12 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BloodBank;
+using BloodBank.Core;
 
 namespace UserInterfaces
 {
     public partial class AdminPanel : Form
     {
-        
 
         public AdminPanel()
         {
@@ -59,7 +59,18 @@ namespace UserInterfaces
 
         private void AdminPanel_Load(object sender, EventArgs e)
         {
+            DonorsService donorsService = new DonorsService();
+            dataGridView1.DataSource = donorsService.GetAll();
 
+            EmployeeService employeeService = new EmployeeService();
+            dataGridView2.DataSource = employeeService.GetAll();
+        }
+
+        private void donorNameBox_TextChanged(object sender, EventArgs e)
+        {
+            string name = donorNameBox.Text;
+            DonorsService donorsService = new DonorsService();
+            dataGridView1.DataSource = donorsService.GetByName(name);
         }
     }
 }
