@@ -10,10 +10,15 @@ using System.Windows.Forms;
 using UserInterfaces;
 using System.Net;
 using System.Net.Mail;
+using BloodBank.Core;
+using BloodBank.Entity;
+
 namespace UserInterfaces
 {
     public partial class DonorRegistration : Form
     {
+        string[] bloodGroups = {"A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"};
+        string[] genders = { "Male", "Female", "Others" };
 
         public DonorRegistration()
         {
@@ -38,8 +43,29 @@ namespace UserInterfaces
 
         private void DonorRegister_Click(object sender, EventArgs e)
         {
+            DonorsService donorsService = new DonorsService();
+            Donors donors = new Donors();
 
-       
+            donors.Name = DonorName.Text;
+            donors.Address = DonorAddress.Text;
+            donors.Age = Convert.ToInt32(DonorAge.Text);
+            donors.Gender = (string)DonorGender.SelectedItem;
+            donors.Phone = DonorPhone.Text;
+            donors.Email = DonorEmail.Text;
+            donors.BloodGroup = (string)DonorBloodGroup.SelectedItem;
+            donors.Weight = Convert.ToInt32(DonorWeight.Text);
+
+            
+            if (donorsService.SendDonorEmail(donors.Email))
+            {
+                if(donorsService.Add(donors) > 0)
+                {
+                    MessageBox.Show("Record Added!");
+                }
+            }
+            else {
+                MessageBox.Show("Error!");
+            }
         }
 
         private void BackButton_Click(object sender, EventArgs e)
@@ -49,6 +75,19 @@ namespace UserInterfaces
             ns.ShowDialog();
             this.Close();
 
+        }
+
+        private void DonorRegistration_Load(object sender, EventArgs e)
+        {
+            foreach (string str in bloodGroups)
+            {
+                DonorBloodGroup.Items.Add(str);
+            }
+
+            foreach (string str in genders)
+            {
+                DonorGender.Items.Add(str);
+            }
         }
     }
 }

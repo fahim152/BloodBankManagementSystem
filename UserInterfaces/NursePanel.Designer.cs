@@ -42,7 +42,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(506, 41);
+            this.label1.Location = new System.Drawing.Point(562, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 19);
             this.label1.TabIndex = 0;
@@ -51,9 +51,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 129);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 182);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(760, 420);
+            this.dataGridView1.Size = new System.Drawing.Size(760, 367);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -94,6 +94,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
@@ -102,6 +103,7 @@
             this.Name = "NursePanel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NursePanel";
+            this.Load += new System.EventHandler(this.NursePanel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
