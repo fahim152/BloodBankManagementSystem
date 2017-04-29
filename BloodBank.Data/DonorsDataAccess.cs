@@ -30,7 +30,7 @@ namespace BloodBank.Data
         public int Edit(Donors donors)
         {
 
-            string query = "UPADATE donors SET Name='" + donors.Name  + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + donors.Id;
+            string query = "UPADATE donors SET Name='" + donors.Name + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + donors.Id;
             return DataAccess.ExecuteQuery(query);
         }
 
@@ -81,9 +81,9 @@ namespace BloodBank.Data
             return donors;
         }
 
-<<<<<<< HEAD
 
-        public void DonorEmail() 
+
+        public void DonorEmail()
         {
 
             try
@@ -103,15 +103,14 @@ namespace BloodBank.Data
             }
             catch
             {
-               
+
 
 
             }
 
-        } 
+        }
 
-=======
->>>>>>> refs/remotes/origin/master
     }
 
 }
+
