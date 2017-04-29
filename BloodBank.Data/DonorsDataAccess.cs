@@ -78,18 +78,12 @@ namespace BloodBank.Data
             return donors;
         }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/origin/pr/5
 
 
-        public void DonorEmail()
-=======
+       
+
         public bool SendDonorEmail(string donorEmail) 
->>>>>>> origin/master
+
         {
             bool status;
             try
@@ -110,26 +104,22 @@ namespace BloodBank.Data
             }
             catch
             {
-<<<<<<< HEAD
-
-
-
-            }
-
-        }
-
-<<<<<<< HEAD
-=======
->>>>>>> refs/remotes/origin/master
->>>>>>> refs/remotes/origin/pr/5
-=======
                 status = false;
+
+
+
             }
 
-            return status;
+                 return status;
+
+
+                
+            }
+
+            
         } 
->>>>>>> origin/master
+
     }
 
-}
+
 

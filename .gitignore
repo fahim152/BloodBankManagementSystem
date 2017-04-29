@@ -6,3 +6,8 @@ Blood Bank Management System.v11.suo
 *.suo
 *.suo
 Blood Bank Management System.v11.suo
+*.dll
+*.exe
+*.config 
+*.csproj
+*.exe
