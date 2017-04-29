@@ -17,3 +17,10 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\MySql.Data.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
+F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
