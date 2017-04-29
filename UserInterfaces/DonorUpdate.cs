@@ -9,28 +9,38 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using UserInterfaces;
 
 namespace BloodBank
 {
     public partial class DonorUpdate : Form
     {
-        Donors d = new Donors();
+        Donors d = null;
         string[] bloodGroups = { "A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-" };
         string[] genders = { "Male", "Female", "Others" };
         public DonorUpdate(Donors d)
         {
             InitializeComponent();
             this.d = d; 
-            
         }
 
         private void updateButton_Click(object sender, EventArgs e)
         {
+            d.Name = nameBox.Text;
+            d.Address = addressBox.Text;
+            d.Gender = (string)genderBox.SelectedItem;
+            d.Phone = phoneBox.Text;
+            d.Email = emailBox.Text;
+            d.Weight = Convert.ToInt32(weightBox.Text);
+            d.BloodGroup = (string)bloodgroupBox.SelectedItem;
+
+
            DonorsService ds = new DonorsService();
-
-           ds.Edit(d, d.Id);
-            
-
+            if (ds.Edit(d) > 0) {
+                MessageBox.Show("Record Updated Successfully!");
+                AdminPanel ap = new AdminPanel();
+                ap.LoadData();
+            }
         }
 
         private void nameBox_TextChanged(object sender, EventArgs e)
