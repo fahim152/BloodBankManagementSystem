@@ -44,6 +44,7 @@ namespace UserInterfaces
 
         private void PathologistPanel_Load(object sender, EventArgs e)
         {
+            dataGridView1.ReadOnly = false; 
             DonorsService donorsService = new DonorsService();
             dataGridView1.DataSource = donorsService.GetAll();
         }

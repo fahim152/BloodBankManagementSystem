@@ -35,5 +35,10 @@ namespace BloodBank
                 MessageBox.Show("Your email is not registered! Please contact your administrator!");
             }
         }
+
+        private void ForgotPassword_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

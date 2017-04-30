@@ -4,19 +4,6 @@ F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Relea
 F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\bin\Release\MySql.Data.dll
 F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
 F:\VS Projects\Blood Bank Management System (Updated)\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\mscorlib.dll
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\MySql.Data.dll
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normidna.nlp
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfc.nlp
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfd.nlp
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkc.nlp
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkd.nlp
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
 F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
 F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
 F:\BloodBankManagementSystem\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
@@ -37,3 +24,15 @@ C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\BloodBa
 C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
 C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
 C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\mscorlib.dll
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\MySql.Data.dll
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normidna.nlp
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfc.nlp
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfd.nlp
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkc.nlp
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkd.nlp
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb

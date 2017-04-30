@@ -137,6 +137,9 @@ namespace UserInterfaces
 
         public void LoadData()
         {
+
+            dataGridView1.ReadOnly = false;
+            dataGridView2.ReadOnly = false;
             DonorsService donorsService = new DonorsService();
             dataGridView1.DataSource = donorsService.GetAll();
 

@@ -17,3 +17,5 @@ BloodBank.Core/bin/Release/BloodBank.Core.pdb
 BloodBank.Data/obj/Release/BloodBank.Data.pdb
 *.cache
 UserInterfaces/bin/Release/BloodBank.vshost.exe
+*.dll
+*.dll

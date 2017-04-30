@@ -40,7 +40,7 @@ namespace BloodBank
         //Retrieves the whole inventory!
         private void Blood_Inventory_Load(object sender, EventArgs e)
         {
-
+            dataGridView1.ReadOnly = false;
             BloodService bs = new BloodService();
             dataGridView1.DataSource = bs.GetAll();
 

@@ -45,6 +45,7 @@ namespace UserInterfaces
 
         private void NursePanel_Load(object sender, EventArgs e)
         {
+            dataGridView1.ReadOnly = false;
             DonorsService donorsService = new DonorsService();
             dataGridView1.DataSource = donorsService.GetAll();
         }
