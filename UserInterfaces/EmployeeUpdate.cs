@@ -34,10 +34,10 @@ namespace BloodBank
         {
             emp.Name = nameBox.Text;
             emp.Address = addressBox.Text;
-            emp.Gender = (string)genderBox.SelectedItem;
+            emp.Gender = genderBox.Text;
             emp.Phone = phoneBox.Text;
             emp.Email = emailBox.Text;
-            emp.Designation = (string)designationBox.SelectedItem;
+            emp.Designation = designationBox.Text;
             emp.Password = passwordBox.Text;
 
            EmployeeService es = new EmployeeService();

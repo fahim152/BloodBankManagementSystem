@@ -41,7 +41,10 @@ namespace BloodBank.Core
             return donorsDataAccess.SendDonorEmail(donorEmail);
         }
 
-      
+        public object RowCount()
+        {
+            return donorsDataAccess.RowCount();
+        }
 
     }
 }

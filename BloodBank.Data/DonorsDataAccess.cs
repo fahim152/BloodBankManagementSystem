@@ -105,10 +105,14 @@ namespace BloodBank.Data
             }
 
             return status;
-        }            
+        }
 
+        public object RowCount()
+        {
+            string query = "SELECT COUNT(*) FROM donors";
+            return DataAccess.ExecuteScalar(query);
+        }
 
-        
 
     } 
 }

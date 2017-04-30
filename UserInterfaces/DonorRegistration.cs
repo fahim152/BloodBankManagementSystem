@@ -45,7 +45,9 @@ namespace UserInterfaces
         {
             DonorsService donorsService = new DonorsService();
             Donors donors = new Donors();
+            int count = Convert.ToInt32(donorsService.RowCount());
 
+            donors.Id = count += 101;
             donors.Name = DonorName.Text;
             donors.Address = DonorAddress.Text;
             donors.Age = Convert.ToInt32(DonorAge.Text);
