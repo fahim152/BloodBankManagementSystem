@@ -1,57 +1,4 @@
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.DonorRegistration.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.exe.config
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.exe
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.pdb
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Core.dll
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Entity.dll
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\MySql.Data.dll
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Data.dll
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Core.pdb
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Entity.pdb
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Data.pdb
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.exe
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.pdb
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.exe.config
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.exe
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.pdb
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Core.dll
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Entity.dll
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\mscorlib.dll
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\MySql.Data.dll
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Data.dll
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Core.pdb
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Entity.pdb
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\BloodBank.Data.pdb
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\normidna.nlp
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\normnfc.nlp
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\normnfd.nlp
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\normnfkc.nlp
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\bin\Release\normnfkd.nlp
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.DonorRegistration.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.exe
-C:\Users\User\Desktop\BBMS project\Blood Bank Management System (Updated)\Blood Bank Management System (Updated)\UserInterfaces\obj\Release\BloodBank.pdb
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.pdb
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.dll
@@ -69,6 +16,10 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfkd.nlp
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.AdminSetting.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
@@ -76,63 +27,5 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.pdb
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.dll
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.dll
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\MySql.Data.dll
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.dll
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.pdb
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.pdb
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.pdb
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.DonorRegistration.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.pdb
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.dll
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.dll
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\mscorlib.dll
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\MySql.Data.dll
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.dll
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.pdb
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.pdb
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.pdb
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\normidna.nlp
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfc.nlp
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfd.nlp
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfkc.nlp
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfkd.nlp
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.DonorRegistration.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
-=======
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources
-C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.AdminSetting.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.AdminSetting.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
-F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
->>>>>>> origin/master
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.AdminSetting.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
-C:\Users\Fahim\Desktop\Project Currently Doing\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb

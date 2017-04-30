@@ -1,8 +1,0 @@
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.AdminPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.LoginPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.NursePanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.PathologistPanel.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.DonorRegistration.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.Properties.Resources.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\UserInterfaces.StaffRegistration.resources
-F:\VS Projects\Blood Bank Management System (Updated)\UserInterfaces\obj\Debug\BloodBank.csproj.GenerateResource.Cache
