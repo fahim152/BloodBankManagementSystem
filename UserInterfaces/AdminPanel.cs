@@ -66,6 +66,7 @@ namespace UserInterfaces
         private void AdminPanel_Load(object sender, EventArgs e)
         {
             LoadData();
+            dataGridView1.ReadOnly = true;
         }
 
         private void donorNameBox_TextChanged(object sender, EventArgs e)
