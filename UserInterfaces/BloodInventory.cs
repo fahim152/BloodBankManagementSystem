@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BloodBank.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,6 +35,12 @@ namespace BloodBank
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void Blood_Inventory_Load(object sender, EventArgs e)
+        {
+            BloodService bloodService = new BloodService();
+            dataGridView1.DataSource = bloodService.GetAll();
         }
     }
 }

@@ -76,6 +76,7 @@
             this.Name = "Blood_Inventory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Blood_Inventory";
+            this.Load += new System.EventHandler(this.Blood_Inventory_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

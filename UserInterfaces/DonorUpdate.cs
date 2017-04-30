@@ -28,11 +28,11 @@ namespace BloodBank
         {
             d.Name = nameBox.Text;
             d.Address = addressBox.Text;
-            d.Gender = (string)genderBox.SelectedItem;
+            d.Gender = genderBox.Text;
             d.Phone = phoneBox.Text;
             d.Email = emailBox.Text;
             d.Weight = Convert.ToInt32(weightBox.Text);
-            d.BloodGroup = (string)bloodgroupBox.SelectedItem;
+            d.BloodGroup = bloodgroupBox.Text;
 
 
            DonorsService ds = new DonorsService();

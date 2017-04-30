@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using BloodBank.Entity;
 using MySql.Data.MySqlClient;
+using System.Net.Mail;
+using System.Net;
 
 namespace BloodBank.Data
 {
@@ -91,6 +93,45 @@ namespace BloodBank.Data
         public object RowCount() {
             string query = "SELECT COUNT(*) FROM employee";
             return DataAccess.ExecuteScalar(query);
+        }
+
+        public string GetPassword(string email) {
+            string query = string.Format("SELECT Password FROM employee WHERE Email = '{0}'", email);
+            string password = null;
+            MySqlDataReader reader = DataAccess.GetData(query);
+
+            while (reader.Read())
+            {
+                password = reader["Password"].ToString();
+            }
+
+            return password;
+        }
+
+        public bool SendEmployeePassword(string email, string password) {
+            bool status;
+            try
+            {
+                MailMessage message = new MailMessage();
+                message.From = new MailAddress("bloodbank152@gmail.com");
+                message.Subject = "Blood Bank Forgot Password";
+                message.Body = "Dear Employee, You have requested to retrieve your password.\n\nHere is your old password " + password + "\n\nIf it was not you, please ignore this email, Thank you! \n\n<<<<<<<<<<This is an auto-generated email, please DO NOT reply to this email.>>>>>>>>>> \n\nSystem Admin : Fahim Ahmed & Arefin Mehedi Ibtesham";
+                message.To.Add(email);
+
+                SmtpClient client = new SmtpClient();
+                client.Credentials = new NetworkCredential("bloodbank152@gmail.com", "fahimarefin");
+                client.Host = "smtp.gmail.com";
+                client.Port = 587;
+                client.EnableSsl = true;
+                client.Send(message);
+                status = true;
+            }
+            catch
+            {
+                status = false;
+            }
+
+            return status;
         }
     }
 }

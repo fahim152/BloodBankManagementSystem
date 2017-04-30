@@ -36,6 +36,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.loginButton = new System.Windows.Forms.Button();
+            this.ForrgotPassword = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -124,12 +125,25 @@
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ForrgotPassword
+            // 
+            this.ForrgotPassword.AutoSize = true;
+            this.ForrgotPassword.Font = new System.Drawing.Font("Trebuchet MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForrgotPassword.Location = new System.Drawing.Point(329, 435);
+            this.ForrgotPassword.Name = "ForrgotPassword";
+            this.ForrgotPassword.Size = new System.Drawing.Size(164, 24);
+            this.ForrgotPassword.TabIndex = 8;
+            this.ForrgotPassword.TabStop = true;
+            this.ForrgotPassword.Text = "Forgot Password?";
+            this.ForrgotPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ForrgotPassword_LinkClicked);
+            // 
             // LoginPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 43F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.ForrgotPassword);
             this.Controls.Add(this.loginButton);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.label6);
@@ -159,5 +173,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox passwordBox;
         private System.Windows.Forms.Button loginButton;
+        private System.Windows.Forms.LinkLabel ForrgotPassword;
     }
 }

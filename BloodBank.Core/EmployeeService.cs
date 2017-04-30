@@ -44,5 +44,13 @@ namespace BloodBank.Core
         public object RowCount() {
             return employeeDataAccess.RowCount();
         }
+
+        public string GetPassword(string email) {
+            return employeeDataAccess.GetPassword(email);
+        }
+
+        public bool SendEmployeePassword(string email, string password) {
+            return employeeDataAccess.SendEmployeePassword(email, password);
+        }
     }
 }
