@@ -172,5 +172,10 @@ namespace UserInterfaces
          
         }
 
+        private void emailSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -55,3 +55,4 @@ F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Releas
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
 F:\BloodBankManagementSystem\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.ForgotPassword.resources
+C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.ForgotPassword.resources

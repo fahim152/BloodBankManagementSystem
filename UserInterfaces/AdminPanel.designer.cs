@@ -115,8 +115,9 @@
             // emailSettingsToolStripMenuItem
             // 
             this.emailSettingsToolStripMenuItem.Name = "emailSettingsToolStripMenuItem";
-            this.emailSettingsToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.emailSettingsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.emailSettingsToolStripMenuItem.Text = "Email Settings";
+            this.emailSettingsToolStripMenuItem.Click += new System.EventHandler(this.emailSettingsToolStripMenuItem_Click);
             // 
             // dataGridView1
             // 
