@@ -39,13 +39,13 @@ namespace BloodBank
 
         private void Blood_Inventory_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
+
             BloodService bs = new BloodService();
             dataGridView1.DataSource = bs.GetAll();
-=======
+
             BloodService bloodService = new BloodService();
             dataGridView1.DataSource = bloodService.GetAll();
->>>>>>> origin/master
+
         }
     }
 }
