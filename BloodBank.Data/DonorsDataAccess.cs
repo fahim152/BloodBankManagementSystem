@@ -26,8 +26,8 @@ namespace BloodBank.Data
 
         public int Edit(Donors donors)
         {
-
-            string query = "UPADATE donors SET Name='" + donors.Name + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + donors.Id;
+            string query = "UPDATE donors SET Name = '"+ donors.Name + "', Address = '"+ donors.Address + "', Age = '" + donors.Age + "', Gender = '" + donors.Gender + "', Phone = '" + donors.Phone + "', Blood_Group = '" + donors.BloodGroup + "', Weight = '" + donors.Weight + "' WHERE ID = " + donors.Id;
+            //string query = "UPADATE donors SET Name='" + donors.Name + "' Age= '" + donors.Age + "' Address= '" + donors.Address + "' Phone= '" + donors.Phone + "' Email= '" + donors.Email + "' Gender= '" + donors.Gender + "' Weight= '" + donors.Weight + "' Blood_Group= '" + donors.BloodGroup + "' WHERE id=" + id;
             return DataAccess.ExecuteQuery(query);
         }
 
@@ -57,7 +57,8 @@ namespace BloodBank.Data
 
         public Donors GetByName(string name)
         {
-            string query = "SELECT ID, Name, Address, Age, Phone, Email, Gender, Weight, Blood_Group, Phone FROM donors WHERE Name = " +name;
+            name += "%";
+            string query = "SELECT * FROM donors WHERE Name LIKE '" + name + "'";
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
 
@@ -105,6 +106,10 @@ namespace BloodBank.Data
 
             return status;
         }            
+
+
+        
+
     } 
 }
 
