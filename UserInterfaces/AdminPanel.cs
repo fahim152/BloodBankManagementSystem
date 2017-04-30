@@ -20,7 +20,7 @@ namespace UserInterfaces
         string idTextEmployee;
         int idEmployee;
         Donors d = new Donors();
-
+        Employee emp = new Employee();
         public AdminPanel()
         {
 
@@ -103,7 +103,7 @@ namespace UserInterfaces
 
         private void EmployeeUpdate_Click(object sender, EventArgs e)
         {
-            EmployeeUpdate eu = new EmployeeUpdate();
+            EmployeeUpdate eu = new EmployeeUpdate(emp);
             eu.ShowDialog();
             LoadData();
 
@@ -160,6 +160,16 @@ namespace UserInterfaces
         {
             idTextEmployee = dataGridView2.Rows[e.RowIndex].Cells["ID"].Value.ToString();
             idEmployee = int.Parse(idTextEmployee);
+
+            emp.Id = idEmployee;
+            emp.Name = dataGridView2.Rows[e.RowIndex].Cells["Name"].Value.ToString();
+            emp.Password = dataGridView2.Rows[e.RowIndex].Cells["Password"].Value.ToString();
+            emp.Address = dataGridView2.Rows[e.RowIndex].Cells["Address"].Value.ToString();
+            emp.Email = dataGridView2.Rows[e.RowIndex].Cells["Email"].Value.ToString();
+            emp.Gender = dataGridView2.Rows[e.RowIndex].Cells["Gender"].Value.ToString();
+            emp.Phone = dataGridView2.Rows[e.RowIndex].Cells["Phone"].Value.ToString();
+            emp.Designation = dataGridView2.Rows[e.RowIndex].Cells["Designation"].Value.ToString();
+         
         }
 
     }

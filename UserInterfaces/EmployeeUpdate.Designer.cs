@@ -57,6 +57,7 @@
             this.updateButton.TabIndex = 36;
             this.updateButton.Text = "Update Employee";
             this.updateButton.UseVisualStyleBackColor = false;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
             // designationBox
             // 
@@ -215,6 +216,7 @@
             this.Name = "EmployeeUpdate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmployeeUpdate";
+            this.Load += new System.EventHandler(this.EmployeeUpdate_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
