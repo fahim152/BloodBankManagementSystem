@@ -10,9 +10,17 @@ namespace BloodBank.Data
 {
     public class BloodDataAccess
     {
-        public int Add(Blood blood) {
+        public int Add(Blood blood) 
+        {
             string query = string.Format("INSERT INTO blood_inventory VALUES('{0}','{1}')", blood.BloodGroup, blood.Quantity);
             return DataAccess.ExecuteQuery(query);
+        }
+
+        public int Update(string bloodGroup)  
+        {
+            string query = "UPDATE blood_inventory SET Quantity = Quantity + 1 WHERE Blood_Group = " + bloodGroup;
+            return DataAccess.ExecuteQuery(query);
+          
         }
 
         public int Reduce(string bloodGroup) {
@@ -21,7 +29,7 @@ namespace BloodBank.Data
         }
 
         public List<Blood> GetAll() {
-            string query = "SELECT * FROM blood_inventory";
+            string query = "SELECT Blood_Group, Quantity FROM blood_inventory";
             MySqlDataReader reader = DataAccess.GetData(query);
 
             Blood blood = null;

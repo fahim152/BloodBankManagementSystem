@@ -17,6 +17,11 @@ namespace BloodBank.Core
             return bloodDataAccess.Add(blood);
         }
 
+        public int Update(string bloodGroup)
+        {
+             return bloodDataAccess.Update(bloodGroup);           
+        }
+
         public int Reduce(string bloodGroup)
         {
             return bloodDataAccess.Reduce(bloodGroup);
@@ -31,5 +36,7 @@ namespace BloodBank.Core
         {
             return bloodDataAccess.GetByGroup(bloodGroup);
         }
+
+        
     }
 }
