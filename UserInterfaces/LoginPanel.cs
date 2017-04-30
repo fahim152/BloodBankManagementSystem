@@ -89,5 +89,11 @@ namespace UserInterfaces
             if (e.KeyCode == Keys.Enter)
                  e.SuppressKeyPress = true;
         }
+
+        private void ForrgotPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgotPassword fp = new ForgotPassword();
+            fp.ShowDialog();
+        }
     }
 }
