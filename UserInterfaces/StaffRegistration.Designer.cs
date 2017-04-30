@@ -65,7 +65,7 @@
             this.RegisterButton.Location = new System.Drawing.Point(321, 457);
             this.RegisterButton.Name = "RegisterButton";
             this.RegisterButton.Size = new System.Drawing.Size(139, 38);
-            this.RegisterButton.TabIndex = 1;
+            this.RegisterButton.TabIndex = 7;
             this.RegisterButton.Text = "Register Staff";
             this.RegisterButton.UseVisualStyleBackColor = false;
             this.RegisterButton.Click += new System.EventHandler(this.button1_Click);
@@ -77,7 +77,7 @@
             this.nameBox.Multiline = true;
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(119, 26);
-            this.nameBox.TabIndex = 2;
+            this.nameBox.TabIndex = 0;
             // 
             // passwordBox
             // 
@@ -86,7 +86,7 @@
             this.passwordBox.Multiline = true;
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.Size = new System.Drawing.Size(119, 26);
-            this.passwordBox.TabIndex = 6;
+            this.passwordBox.TabIndex = 3;
             // 
             // label3
             // 
@@ -115,7 +115,7 @@
             this.addressBox.Multiline = true;
             this.addressBox.Name = "addressBox";
             this.addressBox.Size = new System.Drawing.Size(119, 26);
-            this.addressBox.TabIndex = 10;
+            this.addressBox.TabIndex = 4;
             // 
             // label5
             // 
@@ -134,7 +134,7 @@
             this.phoneBox.Multiline = true;
             this.phoneBox.Name = "phoneBox";
             this.phoneBox.Size = new System.Drawing.Size(119, 26);
-            this.phoneBox.TabIndex = 12;
+            this.phoneBox.TabIndex = 6;
             // 
             // label6
             // 
@@ -153,7 +153,7 @@
             this.designationBox.Location = new System.Drawing.Point(651, 252);
             this.designationBox.Name = "designationBox";
             this.designationBox.Size = new System.Drawing.Size(121, 27);
-            this.designationBox.TabIndex = 13;
+            this.designationBox.TabIndex = 5;
             this.designationBox.SelectedIndexChanged += new System.EventHandler(this.designationBox_SelectedIndexChanged);
             // 
             // label7
@@ -174,7 +174,7 @@
             this.emailBox.Multiline = true;
             this.emailBox.Name = "emailBox";
             this.emailBox.Size = new System.Drawing.Size(119, 26);
-            this.emailBox.TabIndex = 16;
+            this.emailBox.TabIndex = 1;
             // 
             // label8
             // 
@@ -193,7 +193,7 @@
             this.genderBox.Location = new System.Drawing.Point(633, 146);
             this.genderBox.Name = "genderBox";
             this.genderBox.Size = new System.Drawing.Size(121, 27);
-            this.genderBox.TabIndex = 18;
+            this.genderBox.TabIndex = 2;
             this.genderBox.SelectedIndexChanged += new System.EventHandler(this.genderBox_SelectedIndexChanged);
             // 
             // label9

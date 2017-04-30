@@ -31,6 +31,7 @@ namespace UserInterfaces
             int id = Convert.ToInt32(userNameBox.Text);
             string password = passwordBox.Text;
             EmployeeService employeeService = new EmployeeService();
+
             if (employeeService.CheckLogin(id, password) == "Admin")
             {
                 AdminPanel ap = new AdminPanel();
@@ -66,6 +67,27 @@ namespace UserInterfaces
         private void userNameBox_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void passwordBox_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void passwordBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                Button b = new Button();
+                e.SuppressKeyPress = true;
+                
+            }
+        }
+
+        private void userNameBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+                 e.SuppressKeyPress = true;
         }
     }
 }

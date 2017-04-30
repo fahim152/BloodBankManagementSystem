@@ -72,7 +72,7 @@
             this.DonorPhone.Location = new System.Drawing.Point(143, 341);
             this.DonorPhone.Name = "DonorPhone";
             this.DonorPhone.Size = new System.Drawing.Size(143, 23);
-            this.DonorPhone.TabIndex = 2;
+            this.DonorPhone.TabIndex = 4;
             // 
             // DonorEmail
             // 
@@ -80,7 +80,7 @@
             this.DonorEmail.Location = new System.Drawing.Point(143, 399);
             this.DonorEmail.Name = "DonorEmail";
             this.DonorEmail.Size = new System.Drawing.Size(143, 23);
-            this.DonorEmail.TabIndex = 3;
+            this.DonorEmail.TabIndex = 5;
             // 
             // label1
             // 
@@ -129,7 +129,7 @@
             this.DonorBloodGroup.Location = new System.Drawing.Point(487, 109);
             this.DonorBloodGroup.Name = "DonorBloodGroup";
             this.DonorBloodGroup.Size = new System.Drawing.Size(121, 23);
-            this.DonorBloodGroup.TabIndex = 14;
+            this.DonorBloodGroup.TabIndex = 6;
             this.DonorBloodGroup.SelectedIndexChanged += new System.EventHandler(this.comboBoxBlooadgroup_SelectedIndexChanged);
             // 
             // DonorWeight
@@ -138,7 +138,7 @@
             this.DonorWeight.Location = new System.Drawing.Point(487, 160);
             this.DonorWeight.Name = "DonorWeight";
             this.DonorWeight.Size = new System.Drawing.Size(73, 23);
-            this.DonorWeight.TabIndex = 15;
+            this.DonorWeight.TabIndex = 7;
             // 
             // label99
             // 
@@ -177,7 +177,7 @@
             this.DonorGender.Location = new System.Drawing.Point(143, 277);
             this.DonorGender.Name = "DonorGender";
             this.DonorGender.Size = new System.Drawing.Size(121, 21);
-            this.DonorGender.TabIndex = 19;
+            this.DonorGender.TabIndex = 3;
             this.DonorGender.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
@@ -207,7 +207,7 @@
             this.DonorAge.Location = new System.Drawing.Point(143, 220);
             this.DonorAge.Name = "DonorAge";
             this.DonorAge.Size = new System.Drawing.Size(143, 23);
-            this.DonorAge.TabIndex = 22;
+            this.DonorAge.TabIndex = 2;
             // 
             // label3
             // 

@@ -87,8 +87,9 @@
             this.userNameBox.Multiline = true;
             this.userNameBox.Name = "userNameBox";
             this.userNameBox.Size = new System.Drawing.Size(207, 33);
-            this.userNameBox.TabIndex = 5;
+            this.userNameBox.TabIndex = 0;
             this.userNameBox.TextChanged += new System.EventHandler(this.userNameBox_TextChanged);
+            this.userNameBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.userNameBox_KeyDown);
             // 
             // label6
             // 
@@ -108,7 +109,9 @@
             this.passwordBox.Name = "passwordBox";
             this.passwordBox.PasswordChar = '*';
             this.passwordBox.Size = new System.Drawing.Size(207, 33);
-            this.passwordBox.TabIndex = 8;
+            this.passwordBox.TabIndex = 1;
+            this.passwordBox.TextChanged += new System.EventHandler(this.passwordBox_TextChanged);
+            this.passwordBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.passwordBox_KeyDown);
             // 
             // loginButton
             // 
@@ -116,7 +119,7 @@
             this.loginButton.Location = new System.Drawing.Point(370, 369);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(87, 39);
-            this.loginButton.TabIndex = 9;
+            this.loginButton.TabIndex = 2;
             this.loginButton.Text = "Login";
             this.loginButton.UseVisualStyleBackColor = true;
             this.loginButton.Click += new System.EventHandler(this.button1_Click);
