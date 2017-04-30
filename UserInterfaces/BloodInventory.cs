@@ -37,6 +37,7 @@ namespace BloodBank
 
         }
 
+        //Retrieves the whole inventory!
         private void Blood_Inventory_Load(object sender, EventArgs e)
         {
 
