@@ -15,3 +15,5 @@ Blood Bank Management System.v11.suo
 BloodBank.Core/bin/Release/BloodBank.Core.pdb
 *.cache
 BloodBank.Data/obj/Release/BloodBank.Data.pdb
+*.cache
+UserInterfaces/bin/Release/BloodBank.vshost.exe
