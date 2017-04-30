@@ -11,3 +11,7 @@ Blood Bank Management System.v11.suo
 *.config 
 *.csproj
 *.exe
+*.dll
+BloodBank.Core/bin/Release/BloodBank.Core.pdb
+*.cache
+BloodBank.Data/obj/Release/BloodBank.Data.pdb
