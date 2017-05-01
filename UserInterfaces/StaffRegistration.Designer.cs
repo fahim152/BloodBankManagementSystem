@@ -135,6 +135,7 @@
             this.phoneBox.Name = "phoneBox";
             this.phoneBox.Size = new System.Drawing.Size(119, 26);
             this.phoneBox.TabIndex = 6;
+            this.phoneBox.TextChanged += new System.EventHandler(this.phoneBox_TextChanged);
             // 
             // label6
             // 

@@ -55,15 +55,15 @@ namespace BloodBank.Data
             return employeeList;
         }
 
-        public Employee GetByName(string name)
+        public List<Employee> GetByName(string name)
         {
             name += "%";
             string query = "SELECT * FROM employee WHERE Name LIKE '" + name + "'";
             MySqlDataReader reader = DataAccess.GetData(query);
             reader.Read();
-
             Employee employee = null;
-            if (reader.HasRows)
+            List<Employee> employeeList = new List<Employee>();
+            while (reader.Read())
             {
                 employee = new Employee();
                 employee.Id = Convert.ToInt32(reader["ID"]);
@@ -74,8 +74,10 @@ namespace BloodBank.Data
                 employee.Phone = reader["Phone"].ToString();
                 employee.Email = reader["Email"].ToString();
                 employee.Gender = reader["Gender"].ToString();
+
+                employeeList.Add(employee);
             }
-            return employee;
+            return employeeList;
         }
 
         public string CheckLogin(int id, string password) {

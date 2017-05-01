@@ -36,10 +36,16 @@ namespace BloodBank
 
 
            DonorsService ds = new DonorsService();
-            if (ds.Edit(d) > 0) {
+            if (ds.Edit(d) > 0 && phoneBox.Text.Length == 11) 
+            {
                 MessageBox.Show("Record Updated Successfully!");
                 AdminPanel ap = new AdminPanel();
                 ap.LoadData();
+            }
+            else
+            {
+                MessageBox.Show("Error Please provide a valid phone number");
+
             }
         }
 

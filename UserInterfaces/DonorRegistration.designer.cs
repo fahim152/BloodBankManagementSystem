@@ -73,6 +73,7 @@
             this.DonorPhone.Name = "DonorPhone";
             this.DonorPhone.Size = new System.Drawing.Size(143, 23);
             this.DonorPhone.TabIndex = 4;
+            this.DonorPhone.TextChanged += new System.EventHandler(this.DonorPhone_TextChanged);
             // 
             // DonorEmail
             // 
@@ -81,6 +82,7 @@
             this.DonorEmail.Name = "DonorEmail";
             this.DonorEmail.Size = new System.Drawing.Size(143, 23);
             this.DonorEmail.TabIndex = 5;
+            this.DonorEmail.TextChanged += new System.EventHandler(this.DonorEmail_TextChanged);
             // 
             // label1
             // 

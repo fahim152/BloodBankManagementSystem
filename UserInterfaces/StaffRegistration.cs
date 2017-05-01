@@ -39,10 +39,19 @@ namespace UserInterfaces
             employee.Email = emailBox.Text;
             employee.Gender = (string)genderBox.SelectedItem;
 
-            if (employeeService.Add(employee) > 0)
+            if (employeeService.Add(employee) > 0 && phoneBox.Text.Length == 11)
             {
                 MessageBox.Show("Record Added Succesfully");
             }
+
+            else 
+           
+           {
+               MessageBox.Show("Error Please provide a valid phone number");
+           
+           }
+            
+            
         }
 
         private void designationBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,6 +83,11 @@ namespace UserInterfaces
             this.Hide();
             ap.ShowDialog();
             this.Close();
+        }
+
+        private void phoneBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -56,7 +56,7 @@ namespace BloodBank.Data
             return donorsList;
         }
 
-        public Donors GetByName(string name)
+        public List<Donors> GetByName(string name)
         {
             name += "%";
             string query = "SELECT * FROM donors WHERE Name LIKE '" + name + "'";
@@ -64,21 +64,23 @@ namespace BloodBank.Data
             reader.Read();
 
             Donors donors = null;
-            if (reader.HasRows)
+            List<Donors> donorsList = new List<Donors>();
+            while (reader.Read())
             {
                 donors = new Donors();
-                donors.Id = Convert.ToInt32(reader["ID"]);
+                donors.Id = Convert.ToInt32(reader["ID"].ToString());
                 donors.Name = reader["Name"].ToString();
                 donors.Address = reader["Address"].ToString();
-                donors.Age = Convert.ToInt32(reader["Age"]);
+                donors.Age = Convert.ToInt32(reader["Age"].ToString());
                 donors.Phone = reader["Phone"].ToString();
                 donors.Email = reader["Email"].ToString();
                 donors.Gender = reader["Gender"].ToString();
-                donors.Weight = Convert.ToInt32(reader["Weight"]);
+                donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
                 donors.BloodGroup = reader["Blood_Group"].ToString();
                 donors.Status = reader["Status"].ToString();
+                donorsList.Add(donors);
             }
-            return donors;
+            return donorsList;
         }
 
         public bool SendDonorEmail(string donorEmail) 
