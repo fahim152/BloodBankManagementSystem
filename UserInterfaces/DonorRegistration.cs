@@ -45,6 +45,8 @@ namespace UserInterfaces
         {
             DonorsService donorsService = new DonorsService();
             Donors donors = new Donors();
+            Blood blood = new Blood();
+
             int count = Convert.ToInt32(donorsService.RowCount());
 
             donors.Id = count += 101;
@@ -56,6 +58,14 @@ namespace UserInterfaces
             donors.Email = DonorEmail.Text;
             donors.BloodGroup = (string)DonorBloodGroup.SelectedItem;
             donors.Weight = Convert.ToInt32(DonorWeight.Text);
+
+            BloodService bloodService = new BloodService();
+
+            string bloodGroup = (string)DonorBloodGroup.SelectedItem;
+            int  quantity = bloodService.GetCurrentQuantity(bloodGroup);
+
+            quantity += 1;
+            bloodService.Add(bloodGroup, quantity);
 
             
             if (donorsService.SendDonorEmail(donors.Email))

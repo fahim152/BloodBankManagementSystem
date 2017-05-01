@@ -19,3 +19,4 @@ BloodBank.Data/obj/Release/BloodBank.Data.pdb
 UserInterfaces/bin/Release/BloodBank.vshost.exe
 *.dll
 *.dll
+*.suo

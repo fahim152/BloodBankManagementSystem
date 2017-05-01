@@ -28,7 +28,7 @@ namespace UserInterfaces
             EmployeeService employeeService = new EmployeeService();
 
             int count = Convert.ToInt32(employeeService.RowCount());
-            count++;
+            count +=1001;
             Employee employee = new Employee();
             employee.Id = count;
             employee.Name = nameBox.Text;
@@ -39,7 +39,10 @@ namespace UserInterfaces
             employee.Email = emailBox.Text;
             employee.Gender = (string)genderBox.SelectedItem;
 
-            employeeService.Add(employee);
+            if (employeeService.Add(employee) > 0)
+            {
+                MessageBox.Show("Record Added Succesfully");
+            }
         }
 
         private void designationBox_SelectedIndexChanged(object sender, EventArgs e)

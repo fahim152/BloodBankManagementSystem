@@ -17,6 +17,7 @@ namespace BloodBank.Entity
         string email;
         string bloodGroup;
         int weight;
+        string status;
 
         public int Id {
             set {this.id = value;}
@@ -116,6 +117,19 @@ namespace BloodBank.Entity
             set
             {
                 weight = value;
+            }
+        }
+
+        public string Status
+        {
+            get
+            {
+                return status;
+            }
+
+            set
+            {
+                status = value;
             }
         }
     }

@@ -46,5 +46,9 @@ namespace BloodBank.Core
             return donorsDataAccess.RowCount();
         }
 
+        public int ChangeStatus(Donors donors) {
+            return donorsDataAccess.ChangeStatus(donors);
+        }
+
     }
 }

@@ -172,7 +172,6 @@ namespace UserInterfaces
             emp.Gender = dataGridView2.Rows[e.RowIndex].Cells["Gender"].Value.ToString();
             emp.Phone = dataGridView2.Rows[e.RowIndex].Cells["Phone"].Value.ToString();
             emp.Designation = dataGridView2.Rows[e.RowIndex].Cells["Designation"].Value.ToString();
-         
         }
 
         private void emailSettingsToolStripMenuItem_Click(object sender, EventArgs e)

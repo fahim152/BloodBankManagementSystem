@@ -10,9 +10,9 @@ namespace BloodBank.Data
 {
     public class BloodDataAccess
     {
-        public int Add(Blood blood) 
+        public int Add(string bloodGroup, int quantity) 
         {
-            string query = string.Format("INSERT INTO blood_inventory VALUES('{0}','{1}')", blood.BloodGroup, blood.Quantity);
+            string query = "Update blood_inventory SET Quantity = '" + quantity + "' WHERE Blood_Group = '" + bloodGroup +"'"; 
             return DataAccess.ExecuteQuery(query);
         }
 
@@ -47,12 +47,14 @@ namespace BloodBank.Data
             return bloodList;
         }
 
-        public Blood GetByGroup(string bloodGroup) {
+        public Blood GetByGroup(string bloodGroup)
+        {
             string query = "SELECT * FROM blood_inventory WHERE Name = " + bloodGroup;
             MySqlDataReader reader = DataAccess.GetData(query);
 
             Blood blood = null;
-            if (reader.HasRows) {
+            if (reader.HasRows)
+            {
                 blood = new Blood();
 
                 blood.BloodGroup = reader["Blood_Group"].ToString();
@@ -60,6 +62,22 @@ namespace BloodBank.Data
             }
 
             return blood;
+        }
+        
+        
+
+        public int GetCurrentQuantity(string bloodGroup) {
+            string query =  string.Format("SELECT Quantity FROM blood_inventory WHERE Blood_Group = '{0}'" , bloodGroup);
+            //SELECT Quantity FROM blood_inventory WHERE Blood_Group = 'A+'
+            int quantity = 0;
+            MySqlDataReader reader = DataAccess.GetData(query);
+
+            while (reader.Read())
+            {
+                quantity = int.Parse(reader[0].ToString());
+            }
+
+            return quantity;
         }
     }
 }
