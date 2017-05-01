@@ -42,12 +42,19 @@ namespace BloodBank
 
            EmployeeService es = new EmployeeService();
 
-            if (es.Edit(emp) > 0)
-            {
-                MessageBox.Show("Record Updated Successfully!");
-                AdminPanel ap = new AdminPanel();
-                ap.LoadData();
-            }
+           if (es.Edit(emp) > 0 && phoneBox.Text.Length == 11)
+           {
+               MessageBox.Show("Record Updated Successfully!");
+               AdminPanel ap = new AdminPanel();
+               ap.LoadData();
+           }
+
+           else 
+           
+           {
+               MessageBox.Show("Error Please provide a valid phone number");
+           
+           }
 
          }
 

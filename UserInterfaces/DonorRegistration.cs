@@ -43,6 +43,7 @@ namespace UserInterfaces
 
         private void DonorRegister_Click(object sender, EventArgs e)
         {
+
             DonorsService donorsService = new DonorsService();
             Donors donors = new Donors();
             Blood blood = new Blood();
@@ -68,15 +69,17 @@ namespace UserInterfaces
             bloodService.Add(bloodGroup, quantity);
 
             
-            if (donorsService.SendDonorEmail(donors.Email))
+            if (donorsService.SendDonorEmail(donors.Email) && DonorPhone.Text.Length == 11)
             {
                 if(donorsService.Add(donors) > 0)
                 {
                     MessageBox.Show("Record Added!");
                 }
             }
+      
+
             else {
-                MessageBox.Show("Error!");
+                MessageBox.Show("Error! Please Check your Mail or Provide a Valid Phone number");
             }
         }
 
@@ -100,6 +103,16 @@ namespace UserInterfaces
             {
                 DonorGender.Items.Add(str);
             }
+        }
+
+        private void DonorEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void DonorPhone_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

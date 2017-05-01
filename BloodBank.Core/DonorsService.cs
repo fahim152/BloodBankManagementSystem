@@ -32,7 +32,7 @@ namespace BloodBank.Core
             return donorsDataAccess.GetAll();
         }
 
-        public Donors GetByName(string name)
+        public List<Donors> GetByName(string name)
         {
             return donorsDataAccess.GetByName(name);
         }

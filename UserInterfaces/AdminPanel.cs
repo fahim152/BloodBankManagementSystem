@@ -72,14 +72,14 @@ namespace UserInterfaces
         {
             string name = donorNameBox.Text;
             DonorsService donorsService = new DonorsService();
-            dataGridView1.DataSource = new List<Donors> {donorsService.GetByName(name)};
+            dataGridView1.DataSource = donorsService.GetByName(name);
         }
 
         private void staffNameBox_TextChanged(object sender, EventArgs e)
         {
             string name = staffNameBox.Text;
             EmployeeService employeeService = new EmployeeService();
-            dataGridView2.DataSource = new List<Employee> { employeeService.GetByName(name)};
+            dataGridView2.DataSource = employeeService.GetByName(name);
         }
 
         private void DonorUpdate_Click(object sender, EventArgs e)
