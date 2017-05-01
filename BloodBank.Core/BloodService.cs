@@ -12,9 +12,9 @@ namespace BloodBank.Core
     {
         BloodDataAccess bloodDataAccess = new BloodDataAccess();
 
-        public int Add(Blood blood)
+        public int Add(string bloodGroup, int quantity)
         {
-            return bloodDataAccess.Add(blood);
+            return bloodDataAccess.Add(bloodGroup, quantity);
         }
 
         public int Update(string bloodGroup)
@@ -37,6 +37,8 @@ namespace BloodBank.Core
             return bloodDataAccess.GetByGroup(bloodGroup);
         }
 
-        
+        public int GetCurrentQuantity(string bloodGroup) {
+            return bloodDataAccess.GetCurrentQuantity(bloodGroup);
+        }
     }
 }

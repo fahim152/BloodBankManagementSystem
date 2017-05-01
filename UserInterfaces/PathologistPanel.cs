@@ -1,4 +1,5 @@
 ﻿using BloodBank.Core;
+using BloodBank.Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,8 @@ namespace UserInterfaces
 {
     public partial class PathologistPanel : Form
     {
+        string[] statuses = { "Approve", "Deny" };
+        Donors donors = new Donors();
 
         public PathologistPanel()
         {
@@ -44,9 +47,32 @@ namespace UserInterfaces
 
         private void PathologistPanel_Load(object sender, EventArgs e)
         {
-            dataGridView1.ReadOnly = false; 
+            foreach (string str in statuses)
+            {
+                statusBox.Items.Add(str);
+            }
+            LoadData();
+        }
+
+        public void LoadData() {
+            dataGridView1.ReadOnly = true;
             DonorsService donorsService = new DonorsService();
             dataGridView1.DataSource = donorsService.GetAll();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            donors.Id = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+        }
+
+        private void statusBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            donors.Status = (string)statusBox.SelectedItem;
+            DonorsService donorsService = new DonorsService();
+
+            if (donorsService.ChangeStatus(donors) > 0) {
+                LoadData();
+            }
         }
     }
 }

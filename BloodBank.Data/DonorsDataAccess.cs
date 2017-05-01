@@ -50,6 +50,7 @@ namespace BloodBank.Data
                 donors.Gender = reader["Gender"].ToString();
                 donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
                 donors.BloodGroup = reader["Blood_Group"].ToString();
+                donors.Status = reader["Status"].ToString();
                 donorsList.Add(donors);
             }
             return donorsList;
@@ -75,6 +76,7 @@ namespace BloodBank.Data
                 donors.Gender = reader["Gender"].ToString();
                 donors.Weight = Convert.ToInt32(reader["Weight"]);
                 donors.BloodGroup = reader["Blood_Group"].ToString();
+                donors.Status = reader["Status"].ToString();
             }
             return donors;
         }
@@ -113,6 +115,11 @@ namespace BloodBank.Data
             return DataAccess.ExecuteScalar(query);
         }
 
+
+        public int ChangeStatus(Donors donors) {
+            string query = "UPDATE donors SET Status = '"+ donors.Status +"' WHERE ID = " + donors.Id;
+            return DataAccess.ExecuteQuery(query);
+        }
 
     } 
 }
