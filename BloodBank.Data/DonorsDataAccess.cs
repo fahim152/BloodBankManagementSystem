@@ -61,7 +61,7 @@ namespace BloodBank.Data
             name += "%";
             string query = "SELECT * FROM donors WHERE Name LIKE '" + name + "'";
             MySqlDataReader reader = DataAccess.GetData(query);
-            reader.Read();
+            //reader.Read();
 
             Donors donors = null;
             List<Donors> donorsList = new List<Donors>();
