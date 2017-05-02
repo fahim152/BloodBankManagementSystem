@@ -91,7 +91,7 @@ namespace BloodBank.Data
 
             return designation;
         }
-
+        
         public object RowCount() {
             string query = "SELECT COUNT(*) FROM employee";
             return DataAccess.ExecuteScalar(query);
