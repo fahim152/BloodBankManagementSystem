@@ -39,10 +39,11 @@ namespace UserInterfaces
             employee.Email = emailBox.Text;
             employee.Gender = (string)genderBox.SelectedItem;
 
+
             if (employeeService.Add(employee) > 0 && phoneBox.Text.Length == 11)
             {
                 MessageBox.Show("Record Added Succesfully");
-            }
+            }    
 
             else 
            
