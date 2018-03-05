@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: May 02, 2017 at 12:05 AM
+-- Generation Time: Mar 05, 2018 at 10:09 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.8
 
@@ -36,13 +36,13 @@ CREATE TABLE `blood_inventory` (
 --
 
 INSERT INTO `blood_inventory` (`Blood_Group`, `Quantity`) VALUES
-('A+', 10),
+('A+', 11),
 ('A-', 0),
-('AB+', 0),
+('AB+', 2),
 ('AB-', 0),
-('B+', 2),
+('B+', 9),
 ('B-', 0),
-('O+', 0),
+('O+', 12),
 ('O-', 0);
 
 -- --------------------------------------------------------
@@ -61,15 +61,19 @@ CREATE TABLE `donors` (
   `Email` varchar(70) NOT NULL,
   `Blood_Group` varchar(70) NOT NULL,
   `Weight` int(70) NOT NULL,
-  `Status` varchar(20) NOT NULL
+  `Status` varchar(20) NOT NULL,
+  `Date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `donors`
 --
 
-INSERT INTO `donors` (`ID`, `Name`, `Address`, `Age`, `Gender`, `Phone`, `Email`, `Blood_Group`, `Weight`, `Status`) VALUES
-(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Approve');
+INSERT INTO `donors` (`ID`, `Name`, `Address`, `Age`, `Gender`, `Phone`, `Email`, `Blood_Group`, `Weight`, `Status`, `Date`) VALUES
+(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Approve', '0000-00-00'),
+(102, 'Anik', 'Jessore', 21, 'Male', '01947295072', 'anikpaul87@gmail.com', 'AB+', 91, 'Deny', '0000-00-00'),
+(103, 'Neon', 'Jessore', 21, 'Male', '01835556360', 'fihanararrono@gmail.com', 'B+', 58, 'Deny', '0000-00-00'),
+(104, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Pending', '2018-03-05');
 
 -- --------------------------------------------------------
 
@@ -93,14 +97,13 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`ID`, `Name`, `Password`, `Designation`, `Address`, `Phone`, `Email`, `Gender`) VALUES
-(101, 'Fahim', 'fahimAhmed', 'Admin', 'Dhaka', '01521212948', 'fahim152@gmail.com', 'Male'),
-(102, 'Arefin', 'arefin', 'Admin', '', '', '', ''),
-(1001, 'Alex', 'alex', 'Pathologist', '', '', '', ''),
-(2001, 'Alice', 'alice', 'Nurse', '', '', '', ''),
-(1002, 'Alif', 'alif', 'Pathologist', 'Dhaka', '01733223422', 'alif@gmail.com', 'Male'),
 (8, 'Malekin', 'malek', 'Pathologist', 'Noakhali', '0189217812', 'malek@gmail.com', 'Male'),
-(1007, 'Bastard', '25251', 'Pathologist', 'has', '187235123', 'bastard@yahoo.com', 'Female'),
-(1008, 'asdasd', '213', 'Nurse', 'asdfasd', '213123', 'asdasd', 'Male');
+(101, 'Fahim', 'fahimAhmed', 'Admin', 'Dhaka', '01521212948', 'fahim152@gmail.com', 'Male'),
+(102, 'Arefin', 'arefin', 'Admin', 'Dhaka', '01764431859', 'rafin.ryan.07@outlook.com', 'Male'),
+(1001, 'Alex', 'alex', 'Pathologist', '', '', '', ''),
+(1002, 'Alif', 'alif', 'Pathologist', 'Dhaka', '01733223422', 'alif@gmail.com', 'Male'),
+(1007, 'Neon', 'nahida', 'Nurse', 'Jessore', '01835556360', 'fihanararrono@gmail.com', 'Male'),
+(2001, 'Alice', 'alice', 'Nurse', '', '', '', '');
 
 --
 -- Indexes for dumped tables
@@ -116,6 +119,12 @@ ALTER TABLE `blood_inventory`
 -- Indexes for table `donors`
 --
 ALTER TABLE `donors`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- Indexes for table `employee`
+--
+ALTER TABLE `employee`
   ADD PRIMARY KEY (`ID`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
