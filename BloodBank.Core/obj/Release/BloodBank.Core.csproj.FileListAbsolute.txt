@@ -71,3 +71,20 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll.config
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Entity.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\mscorlib.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\MySql.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Data.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Entity.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normidna.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb

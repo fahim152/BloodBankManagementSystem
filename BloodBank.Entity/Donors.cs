@@ -18,6 +18,7 @@ namespace BloodBank.Entity
         string bloodGroup;
         int weight;
         string status;
+        string date;
 
         public int Id {
             set {this.id = value;}
@@ -130,6 +131,19 @@ namespace BloodBank.Entity
             set
             {
                 status = value;
+            }
+        }
+
+        public string Date
+        {
+            get
+            {
+                return date;
+            }
+
+            set 
+            {
+                date = value;
             }
         }
     }

@@ -47,6 +47,7 @@
             this.EmployeeUpdate = new System.Windows.Forms.Button();
             this.EmployeeDelete = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
+            this.analyticsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -55,10 +56,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(502, 74);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(270, 23);
+            this.label1.Size = new System.Drawing.Size(270, 24);
             this.label1.TabIndex = 0;
             this.label1.Text = "You are logged in as Admin";
             // 
@@ -66,7 +67,8 @@
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.optionToolStripMenuItem,
-            this.settingsToolStripMenuItem});
+            this.settingsToolStripMenuItem,
+            this.analyticsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -141,7 +143,7 @@
             // 
             // donorNameBox
             // 
-            this.donorNameBox.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.donorNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.donorNameBox.Location = new System.Drawing.Point(187, 157);
             this.donorNameBox.Multiline = true;
             this.donorNameBox.Name = "donorNameBox";
@@ -173,7 +175,7 @@
             // 
             // staffNameBox
             // 
-            this.staffNameBox.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.staffNameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.staffNameBox.Location = new System.Drawing.Point(576, 157);
             this.staffNameBox.Multiline = true;
             this.staffNameBox.Name = "staffNameBox";
@@ -224,12 +226,19 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Lucida Handwriting", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(152, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(477, 20);
+            this.label3.Size = new System.Drawing.Size(384, 18);
             this.label3.TabIndex = 16;
             this.label3.Text = "Select  a donor or employee to Update and Delete";
+            // 
+            // analyticsToolStripMenuItem
+            // 
+            this.analyticsToolStripMenuItem.Name = "analyticsToolStripMenuItem";
+            this.analyticsToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
+            this.analyticsToolStripMenuItem.Text = "Analytics";
+            this.analyticsToolStripMenuItem.Click += new System.EventHandler(this.analyticsToolStripMenuItem_Click);
             // 
             // AdminPanel
             // 
@@ -285,5 +294,6 @@
         private System.Windows.Forms.ToolStripMenuItem settingsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem emailSettingsToolStripMenuItem;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolStripMenuItem analyticsToolStripMenuItem;
     }
 }

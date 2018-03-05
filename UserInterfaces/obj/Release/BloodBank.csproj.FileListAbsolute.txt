@@ -56,3 +56,36 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe.config
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.exe
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.exe
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.dll
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.dll
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\mscorlib.dll
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\MySql.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Core.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Entity.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\BloodBank.Data.pdb
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\normidna.nlp
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfc.nlp
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfd.nlp
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfkc.nlp
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\bin\Release\normnfkd.nlp
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csprojResolveAssemblyReference.cache
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.AdminPanel.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.AdminSetting.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Analytics.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Blood_Inventory.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.DonorUpdate.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.EmployeeUpdate.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.ForgotPassword.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.LoginPanel.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.NursePanel.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.PathologistPanel.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.DonorRegistration.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.Properties.Resources.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\UserInterfaces.StaffRegistration.resources
+I:\AIUB notes\BloodBankManagementSystem\UserInterfaces\obj\Release\BloodBank.csproj.GenerateResource.Cache

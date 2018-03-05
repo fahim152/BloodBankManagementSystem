@@ -61,3 +61,18 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.dll.config
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Data.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Entity.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\mscorlib.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\MySql.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\BloodBank.Entity.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\normidna.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\normnfc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\normnfd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\normnfkc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\bin\Release\normnfkd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.csprojResolveAssemblyReference.cache
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Data\obj\Release\BloodBank.Data.pdb

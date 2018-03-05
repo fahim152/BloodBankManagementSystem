@@ -50,5 +50,9 @@ namespace BloodBank.Core
             return donorsDataAccess.ChangeStatus(donors);
         }
 
+        public List<Donors> getDonorListByDate(string firstDate, string secondDate) {
+            return donorsDataAccess.getDonorListByDate(firstDate, secondDate);
+        }
+
     }
 }

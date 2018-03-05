@@ -179,5 +179,13 @@ namespace UserInterfaces
 
         }
 
+        private void analyticsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Analytics analytics = new Analytics();
+            this.Hide();
+            analytics.ShowDialog();
+            this.Close();
+        }
+
     }
 }

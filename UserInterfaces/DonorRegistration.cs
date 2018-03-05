@@ -60,6 +60,9 @@ namespace UserInterfaces
             donors.BloodGroup = (string)DonorBloodGroup.SelectedItem;
             donors.Weight = Convert.ToInt32(DonorWeight.Text);
 
+            DateTime dateTime = DateTime.UtcNow.Date;
+            donors.Date = dateTime.ToString("yyyy/MM/dd");
+
             BloodService bloodService = new BloodService();
 
             string bloodGroup = (string)DonorBloodGroup.SelectedItem;
