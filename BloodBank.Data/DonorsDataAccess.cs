@@ -78,6 +78,88 @@ namespace BloodBank.Data
                 donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
                 donors.BloodGroup = reader["Blood_Group"].ToString();
                 donors.Status = reader["Status"].ToString();
+                donors.Date = reader["Date"].ToString();
+                donorsList.Add(donors);
+            }
+            return donorsList;
+        }
+
+        public List<Donors> getDonorListByEmail(string email) {
+            email += "%";
+            string query = "SELECT * FROM donors WHERE Email LIKE '" + email + "'";
+            MySqlDataReader reader = DataAccess.GetData(query);
+            //reader.Read();
+
+            Donors donors = null;
+            List<Donors> donorsList = new List<Donors>();
+            while (reader.Read())
+            {
+                donors = new Donors();
+                donors.Id = Convert.ToInt32(reader["ID"].ToString());
+                donors.Name = reader["Name"].ToString();
+                donors.Address = reader["Address"].ToString();
+                donors.Age = Convert.ToInt32(reader["Age"].ToString());
+                donors.Phone = reader["Phone"].ToString();
+                donors.Email = reader["Email"].ToString();
+                donors.Gender = reader["Gender"].ToString();
+                donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
+                donors.BloodGroup = reader["Blood_Group"].ToString();
+                donors.Status = reader["Status"].ToString();
+                donors.Date = reader["Date"].ToString();
+                donorsList.Add(donors);
+            }
+            return donorsList;
+        }
+
+        public List<Donors> getDonorListByPhone(string phone) {
+            phone += "%";
+            string query = "SELECT * FROM donors WHERE Phone LIKE '" + phone + "'";
+            MySqlDataReader reader = DataAccess.GetData(query);
+            //reader.Read();
+
+            Donors donors = null;
+            List<Donors> donorsList = new List<Donors>();
+            while (reader.Read())
+            {
+                donors = new Donors();
+                donors.Id = Convert.ToInt32(reader["ID"].ToString());
+                donors.Name = reader["Name"].ToString();
+                donors.Address = reader["Address"].ToString();
+                donors.Age = Convert.ToInt32(reader["Age"].ToString());
+                donors.Phone = reader["Phone"].ToString();
+                donors.Email = reader["Email"].ToString();
+                donors.Gender = reader["Gender"].ToString();
+                donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
+                donors.BloodGroup = reader["Blood_Group"].ToString();
+                donors.Status = reader["Status"].ToString();
+                donors.Date = reader["Date"].ToString();
+                donorsList.Add(donors);
+            }
+            return donorsList;
+        }
+
+        public List<Donors> getDonorListByBloodGroup(string bloodGroup) {
+            bloodGroup += "%";
+            string query = "SELECT * FROM donors WHERE Blood_Group LIKE '" + bloodGroup + "'";
+            MySqlDataReader reader = DataAccess.GetData(query);
+            //reader.Read();
+
+            Donors donors = null;
+            List<Donors> donorsList = new List<Donors>();
+            while (reader.Read())
+            {
+                donors = new Donors();
+                donors.Id = Convert.ToInt32(reader["ID"].ToString());
+                donors.Name = reader["Name"].ToString();
+                donors.Address = reader["Address"].ToString();
+                donors.Age = Convert.ToInt32(reader["Age"].ToString());
+                donors.Phone = reader["Phone"].ToString();
+                donors.Email = reader["Email"].ToString();
+                donors.Gender = reader["Gender"].ToString();
+                donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
+                donors.BloodGroup = reader["Blood_Group"].ToString();
+                donors.Status = reader["Status"].ToString();
+                donors.Date = reader["Date"].ToString();
                 donorsList.Add(donors);
             }
             return donorsList;
@@ -147,6 +229,11 @@ namespace BloodBank.Data
                 donorsList.Add(donors);
             }
             return donorsList;
+        }
+
+        public int resetDonorStatus(int id) {
+            string query = string.Format("UPDATE donors SET Status = '{0}' WHERE ID = '{1}'", "Pending", id);
+            return DataAccess.ExecuteQuery(query);
         }
 
     } 

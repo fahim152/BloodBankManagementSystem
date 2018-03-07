@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 05, 2018 at 10:09 PM
+-- Generation Time: Mar 07, 2018 at 12:51 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.8
 
@@ -37,10 +37,10 @@ CREATE TABLE `blood_inventory` (
 
 INSERT INTO `blood_inventory` (`Blood_Group`, `Quantity`) VALUES
 ('A+', 11),
-('A-', 0),
+('A-', 1),
 ('AB+', 2),
 ('AB-', 0),
-('B+', 9),
+('B+', 11),
 ('B-', 0),
 ('O+', 12),
 ('O-', 0);
@@ -70,10 +70,11 @@ CREATE TABLE `donors` (
 --
 
 INSERT INTO `donors` (`ID`, `Name`, `Address`, `Age`, `Gender`, `Phone`, `Email`, `Blood_Group`, `Weight`, `Status`, `Date`) VALUES
-(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Approve', '0000-00-00'),
-(102, 'Anik', 'Jessore', 21, 'Male', '01947295072', 'anikpaul87@gmail.com', 'AB+', 91, 'Deny', '0000-00-00'),
-(103, 'Neon', 'Jessore', 21, 'Male', '01835556360', 'fihanararrono@gmail.com', 'B+', 58, 'Deny', '0000-00-00'),
-(104, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Pending', '2018-03-05');
+(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Deny', '2018-03-01'),
+(102, 'Anik', 'Jessore', 21, 'Male', '01947295072', 'anikpaul87@gmail.com', 'AB+', 91, 'Deny', '2018-03-03'),
+(103, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Approve', '2018-03-05'),
+(104, 'Neon', 'New Market, Jessore', 22, 'Male', '01761415440', 'fihanararrono@gmai.com', 'B+', 70, 'Approve', '2018-03-06'),
+(105, 'Shahriar', 'Jessore', 22, 'Male', '01893565741', 'saruvox@gmail.com', 'A-', 55, 'Pending', '2018-03-06');
 
 -- --------------------------------------------------------
 

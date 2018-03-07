@@ -14,6 +14,8 @@ namespace UserInterfaces
 {
     public partial class NursePanel : Form
     {
+        string[] filters = { "Name", "Phone", "Email", "Blood Group" };
+        int donorID;
        
         public NursePanel()
         {
@@ -45,9 +47,64 @@ namespace UserInterfaces
 
         private void NursePanel_Load(object sender, EventArgs e)
         {
+            foreach (string item in filters)
+            {
+                filterBox.Items.Add(item);
+            }
+            LoadData();
+        }
+
+        public void LoadData() {
             dataGridView1.ReadOnly = false;
             DonorsService donorsService = new DonorsService();
             dataGridView1.DataSource = donorsService.GetAll();
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void searchBox_TextChanged(object sender, EventArgs e)
+        {
+            string filteredItem = (string)filterBox.SelectedItem;
+            string query = searchBox.Text;
+            DonorsService ds = new DonorsService();
+
+            if (filteredItem == "Name")
+            {
+                dataGridView1.DataSource = ds.GetByName(query);
+            }
+            else if (filteredItem == "Email")
+            {
+                dataGridView1.DataSource = ds.getDonorListByEmail(query);
+            }
+            else if (filteredItem == "Phone")
+            {
+                dataGridView1.DataSource = ds.getDonorListByPhone(query);
+            }
+            else if (filteredItem == "Blood Group")
+            {
+                dataGridView1.DataSource = ds.getDonorListByBloodGroup(query);
+            }
+            else
+            {
+                MessageBox.Show("Please select a filter to search for");
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            donorID = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+        }
+
+        private void resetButton_Click(object sender, EventArgs e)
+        {
+            DonorsService ds = new DonorsService();
+
+            if (ds.resetDonorStatus(donorID) > 0) {
+                LoadData();
+            }
         }
     }
 }
