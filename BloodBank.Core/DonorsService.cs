@@ -50,5 +50,28 @@ namespace BloodBank.Core
             return donorsDataAccess.ChangeStatus(donors);
         }
 
+        public List<Donors> getDonorListByDate(string firstDate, string secondDate) {
+            return donorsDataAccess.getDonorListByDate(firstDate, secondDate);
+        }
+
+        public List<Donors> getDonorListByEmail(string email)
+        {
+            return donorsDataAccess.getDonorListByEmail(email);
+        }
+
+        public List<Donors> getDonorListByPhone(string phone)
+        {
+            return donorsDataAccess.getDonorListByPhone(phone);
+        }
+
+        public List<Donors> getDonorListByBloodGroup(string bloodGroup)
+        {
+            return donorsDataAccess.getDonorListByBloodGroup(bloodGroup);
+        }
+
+        public int resetDonorStatus(int id) {
+            return donorsDataAccess.resetDonorStatus(id);
+        }
+
     }
 }

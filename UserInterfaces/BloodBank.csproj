@@ -65,6 +65,12 @@
     <Compile Include="AdminSetting.Designer.cs">
       <DependentUpon>AdminSetting.cs</DependentUpon>
     </Compile>
+    <Compile Include="Analytics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Analytics.Designer.cs">
+      <DependentUpon>Analytics.cs</DependentUpon>
+    </Compile>
     <Compile Include="BloodInventory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminSetting.resx">
       <DependentUpon>AdminSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analytics.resx">
+      <DependentUpon>Analytics.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BloodInventory.resx">
       <DependentUpon>BloodInventory.cs</DependentUpon>

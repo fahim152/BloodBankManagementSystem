@@ -36,6 +36,21 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkd.nlp
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
+<<<<<<< HEAD
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\mscorlib.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\MySql.Data.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normidna.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkc.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\bin\Release\normnfkd.nlp
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
+I:\AIUB notes\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
+=======
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll.config
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.dll
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\bin\Release\BloodBank.Entity.pdb
@@ -49,3 +64,4 @@ C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\bi
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.csprojResolveAssemblyReference.cache
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.dll
 C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Entity\obj\Release\BloodBank.Entity.pdb
+>>>>>>> refs/remotes/origin/master
