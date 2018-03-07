@@ -71,6 +71,7 @@ C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\Blood
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
 C:\Users\User\Desktop\Project Doing\Blood Bank Management System (Updated)\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb
+<<<<<<< HEAD
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll.config
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.pdb
@@ -88,3 +89,22 @@ I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkd.nlp
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb
+=======
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll.config
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Core.pdb
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Data.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Entity.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\mscorlib.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\MySql.Data.dll
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Data.pdb
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\BloodBank.Entity.pdb
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\normidna.nlp
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfc.nlp
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfd.nlp
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkc.nlp
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkd.nlp
+C:\Users\Fahim\Desktop\Github Repo\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb
+>>>>>>> refs/remotes/origin/master

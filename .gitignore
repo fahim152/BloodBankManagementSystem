@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 .idea 
 Blood Bank Management System.v11.suo
-=======
->>>>>>> refs/remotes/origin/pr/5
 *.suo
 *.suo
 Blood Bank Management System.v11.suo
@@ -20,3 +17,7 @@ UserInterfaces/bin/Release/BloodBank.vshost.exe
 *.dll
 *.dll
 *.suo
+*.dll
+BloodBank.Core/bin/Release/BloodBank.Entity.pdb
+*.suo
+*.pdb
