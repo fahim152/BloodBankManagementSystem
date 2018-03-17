@@ -88,14 +88,14 @@ I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\bin\Release\normnfkd.nlp
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.dll
 I:\AIUB notes\BloodBankManagementSystem\BloodBank.Core\obj\Release\BloodBank.Core.pdb
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.dll.config
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.dll
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.pdb
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Data.dll
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Entity.dll
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\MySql.Data.dll
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Data.pdb
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Entity.pdb
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.dll
-C:\Users\User\Downloads\BloodBankManagementSystem-master (1)\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.pdb
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.dll.config
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.dll
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Core.pdb
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Data.dll
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Entity.dll
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\MySql.Data.dll
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Data.pdb
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\bin\Release\BloodBank.Entity.pdb
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.dll
+C:\Users\User\Desktop\BloodBankManagementSystem-master\BloodBankManagementSystem-master\BloodBank.Core\obj\Release\BloodBank.Core.pdb

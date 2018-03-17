@@ -73,5 +73,9 @@ namespace BloodBank.Core
             return donorsDataAccess.resetDonorStatus(id);
         }
 
+        public int ResetDate(int id, string date) {
+            return donorsDataAccess.ResetDate(id, date);
+        }
+
     }
 }

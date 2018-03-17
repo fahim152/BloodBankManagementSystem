@@ -9,14 +9,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using UserInterfaces;
+using BloodBank.Entity;
 
 namespace UserInterfaces
 {
     public partial class NursePanel : Form
     {
         string[] filters = { "Name", "Phone", "Email", "Blood Group" };
-        int donorID;
-       
+        Donors donors = new Donors();
+        DateTime donorDate;
         public NursePanel()
         {
             InitializeComponent();
@@ -95,15 +96,31 @@ namespace UserInterfaces
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            donorID = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+            donors.Id = int.Parse(dataGridView1.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+            donorDate = DateTime.Parse(dataGridView1.Rows[e.RowIndex].Cells["Date"].Value.ToString());
+            //donors.Date = donorDate.ToString("yyyy/MM/dd");
         }
 
         private void resetButton_Click(object sender, EventArgs e)
         {
             DonorsService ds = new DonorsService();
+            //MessageBox.Show(donors.Date);
 
-            if (ds.resetDonorStatus(donorID) > 0) {
-                LoadData();
+            DateTime now = DateTime.UtcNow.Date;
+            donors.Date = now.ToString("yyyy/MM/dd");
+
+            TimeSpan difference = now - donorDate;
+
+            if (difference.TotalDays >= 90)
+            {
+                if (ds.resetDonorStatus(donors.Id) > 0)
+                {
+                    ds.ResetDate(donors.Id, donors.Date);
+                    LoadData();
+                }
+            }
+            else {
+                MessageBox.Show("Sorry, you at least need to wait for 90 days before you can donate blood again!");
             }
         }
     }

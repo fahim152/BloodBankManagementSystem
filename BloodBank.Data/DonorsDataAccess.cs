@@ -31,6 +31,11 @@ namespace BloodBank.Data
             return DataAccess.ExecuteQuery(query);
         }
 
+        public int ResetDate(int id, string date) {
+            string query = string.Format("UPDATE donors SET Date = '{0}' WHERE ID = '{1}'", date, id);
+            return DataAccess.ExecuteQuery(query);
+        }
+
         public List<Donors> GetAll()
         {
             string query = "SELECT * FROM donors";
@@ -51,6 +56,7 @@ namespace BloodBank.Data
                 donors.Weight = Convert.ToInt32(reader["Weight"].ToString());
                 donors.BloodGroup = reader["Blood_Group"].ToString();
                 donors.Status = reader["Status"].ToString();
+                donors.Date = reader["Date"].ToString();
                 donorsList.Add(donors);
             }
             return donorsList;
