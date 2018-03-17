@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 17, 2018 at 07:20 AM
+-- Generation Time: Mar 17, 2018 at 07:47 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.1.12
 
@@ -38,11 +38,11 @@ CREATE TABLE `blood_inventory` (
 --
 
 INSERT INTO `blood_inventory` (`Blood_Group`, `Quantity`) VALUES
-('A+', 11),
+('A+', 12),
 ('A-', 1),
 ('AB+', 2),
 ('AB-', 0),
-('B+', 11),
+('B+', 14),
 ('B-', 0),
 ('O+', 12),
 ('O-', 0);
@@ -73,9 +73,8 @@ CREATE TABLE `donors` (
 
 INSERT INTO `donors` (`ID`, `Name`, `Address`, `Age`, `Gender`, `Phone`, `Email`, `Blood_Group`, `Weight`, `Status`, `Date`) VALUES
 (101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Approve', '2018-03-15'),
-(103, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Approve', '2018-03-05'),
-(104, 'Neon', 'New Market, Jessore', 22, 'Male', '01761415440', 'fihanararrono@gmai.com', 'B+', 70, 'Approve', '2018-03-12'),
-(105, 'Shahriar', 'Jessore', 22, 'Male', '01893565741', 'saruvox@gmail.com', 'A-', 55, 'Pending', '2018-03-06');
+(102, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Approve', '2018-03-05'),
+(103, 'Neon', 'New Market, Jessore', 22, 'Male', '01761415440', 'fihanararrono@gmai.com', 'B+', 70, 'Approve', '2018-03-12');
 
 -- --------------------------------------------------------
 
@@ -120,7 +119,8 @@ ALTER TABLE `blood_inventory`
 -- Indexes for table `donors`
 --
 ALTER TABLE `donors`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`ID`),
+  ADD UNIQUE KEY `ID` (`ID`);
 
 --
 -- Indexes for table `employee`
