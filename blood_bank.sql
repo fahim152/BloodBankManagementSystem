@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.7.4
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 09, 2018 at 10:14 AM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.8
+-- Generation Time: Mar 17, 2018 at 07:20 AM
+-- Server version: 10.1.29-MariaDB
+-- PHP Version: 7.1.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -70,10 +72,9 @@ CREATE TABLE `donors` (
 --
 
 INSERT INTO `donors` (`ID`, `Name`, `Address`, `Age`, `Gender`, `Phone`, `Email`, `Blood_Group`, `Weight`, `Status`, `Date`) VALUES
-(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Pending', '2017-12-04'),
-(102, 'Anik', 'Jessore', 21, 'Male', '01947295072', 'anikpaul87@gmail.com', 'AB+', 91, 'Deny', '2018-03-03'),
+(101, 'Siam', 'Mogbazar', 22, 'Male', '01676941118', 'shaj_fun@yahoo.com', 'B+', 54, 'Approve', '2018-03-15'),
 (103, 'Abrar', 'Mirpur DOHS', 22, 'Male', '01711648963', 'abrarzshahriar@gmail.com', 'B+', 74, 'Approve', '2018-03-05'),
-(104, 'Neon', 'New Market, Jessore', 22, 'Male', '01761415440', 'fihanararrono@gmai.com', 'B+', 70, 'Approve', '2018-03-06'),
+(104, 'Neon', 'New Market, Jessore', 22, 'Male', '01761415440', 'fihanararrono@gmai.com', 'B+', 70, 'Approve', '2018-03-12'),
 (105, 'Shahriar', 'Jessore', 22, 'Male', '01893565741', 'saruvox@gmail.com', 'A-', 55, 'Pending', '2018-03-06');
 
 -- --------------------------------------------------------
@@ -98,13 +99,12 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`ID`, `Name`, `Password`, `Designation`, `Address`, `Phone`, `Email`, `Gender`) VALUES
-(8, 'Malekin', 'malek', 'Pathologist', 'Noakhali', '0189217812', 'malek@gmail.com', 'Male'),
-(101, 'Fahim', 'fahimAhmed', 'Admin', 'Dhaka', '01521212948', 'fahim152@gmail.com', 'Male'),
+(101, 'Fahim', 'admin', 'Admin', 'Dhaka', '01521212948', 'fahim152@gmail.com', 'Male'),
 (102, 'Arefin', 'arefin', 'Admin', 'Dhaka', '01764431859', 'rafin.ryan.07@outlook.com', 'Male'),
-(1001, 'Alex', 'alex', 'Pathologist', '', '', '', ''),
+(1001, 'Rafin', 'path', 'Pathologist', '', '', '', ''),
 (1002, 'Alif', 'alif', 'Pathologist', 'Dhaka', '01733223422', 'alif@gmail.com', 'Male'),
-(1007, 'Neon', 'nahida', 'Nurse', 'Jessore', '01835556360', 'fihanararrono@gmail.com', 'Male'),
-(2001, 'Alice', 'alice', 'Nurse', '', '', '', '');
+(2001, 'Neon', 'eva', 'Nurse', 'Jessore', '01835556360', 'fihanararrono@gmail.com', 'Male'),
+(2002, 'Alice', 'eva', 'Nurse', '', '', '', '');
 
 --
 -- Indexes for dumped tables
@@ -127,6 +127,7 @@ ALTER TABLE `donors`
 --
 ALTER TABLE `employee`
   ADD PRIMARY KEY (`ID`);
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
